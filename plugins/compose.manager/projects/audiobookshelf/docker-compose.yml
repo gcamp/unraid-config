@@ -1,11 +1,38 @@
 services:
+  shadowsocks:
+    image: mritd/shadowsocks:latest
+    container_name: shadowsocks
+    restart: unless-stopped
+    environment:
+      - SS_MODULE=ss-local
+      - SS_CONFIG=-s 185.39.204.27 -p 1080 -b 0.0.0.0 -l 1080 -k 6xN48auNyBbpLDzpmNtUqr4zhVFJuWYF -m chacha20-ietf-poly1305 -u
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+    ports:
+      - "13378:80"
+
+  tun2socks:
+    image: xjasonlyu/tun2socks:latest
+    container_name: tun2socks
+    restart: unless-stopped
+    network_mode: "service:shadowsocks"
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    environment:
+      - PROXY=socks5://127.0.0.1:1080
+      - LOGLEVEL=info
+    depends_on:
+      - shadowsocks
+
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf:latest
     container_name: audiobookshelf
     restart: unless-stopped
+    network_mode: "service:shadowsocks"
     pull_policy: always
-    ports:
-      - "13378:80"
     environment:
       - PUID=99
       - PGID=100
@@ -14,3 +41,6 @@ services:
       - /mnt/user/appdata/audiobookshelf/config:/config
       - /mnt/user/appdata/audiobookshelf/metadata:/metadata
       - /mnt/user/data/media/podcast:/audiobooks
+    depends_on:
+      - shadowsocks
+      - tun2socks
