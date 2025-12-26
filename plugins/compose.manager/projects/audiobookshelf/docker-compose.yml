@@ -9,6 +9,16 @@ services:
     ports:
       - "13378:80"                     # Audiobookshelf Web UI
 
+  privoxy:
+    image: vimagick/privoxy:latest
+    container_name: privoxy
+    restart: unless-stopped
+    network_mode: "service:shadowsocks"
+    volumes:
+      - /mnt/user/appdata/audiobookshelf/privoxy:/etc/privoxy
+    depends_on:
+      - shadowsocks
+
   audiobookshelf:
     image: ghcr.io/advplyr/audiobookshelf:latest
     container_name: audiobookshelf
@@ -18,10 +28,13 @@ services:
       - PUID=99
       - PGID=100
       - TZ=America/Toronto
-      # Proxy configuration for podcast downloads
-      - HTTP_PROXY=http://localhost:1080
-      - HTTPS_PROXY=http://localhost:1080
+      # Proxy configuration for podcast downloads (via privoxy HTTP-to-SOCKS converter)
+      - HTTP_PROXY=http://127.0.0.1:8118
+      - HTTPS_PROXY=http://127.0.0.1:8118
+      - http_proxy=http://127.0.0.1:8118
+      - https_proxy=http://127.0.0.1:8118
       - no_proxy=localhost,127.0.0.1
+      - NO_PROXY=localhost,127.0.0.1
       - EXP_PROXY_SUPPORT=1           # Enable experimental proxy support
     volumes:
       - /mnt/user/appdata/audiobookshelf/config:/config
@@ -29,3 +42,4 @@ services:
       - /mnt/user/data/media/podcast:/audiobooks
     depends_on:
       - shadowsocks
+      - privoxy
