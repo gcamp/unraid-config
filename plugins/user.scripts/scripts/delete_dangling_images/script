@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker rmi $(docker images --quiet --filter "dangling=true")
+docker volume rm $(docker volume ls -qf dangling=true)
+
+echo Finished
+echo if an error shows above, no dangling images were found to delete

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TeslaMate</Name>
+  <Repository>teslamate/teslamate:latest</Repository>
+  <Registry>https://hub.docker.com/r/teslamate/teslamate</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/simonsickle/unraid-templates/discussions/categories/q-a-support</Support>
+  <Project>https://github.com/adriankumpf/teslamate</Project>
+  <Overview>TeslaMate is a powerful, self-hosted data logger for your Tesla. Postgres is required to save logged data.</Overview>
+  <Category>Tools:Utilities spotlight:</Category>
+  <WebUI>http://[IP]:[PORT:4000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/simonsickle/unraid-templates/master/teslamate/teslamate.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/simonsickle/unraid-templates/main/teslamate/logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1699898764</DateInstalled>
+  <DonateText>Buy me a beer / pizza</DonateText>
+  <DonateLink>https://cash.app/$ssickle</DonateLink>
+  <Requires>//postgres\\&#xD;
+&amp;lt;br&amp;gt;//mosquitto\\</Requires>
+  <Config Name="WebUI" Target="4000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4000</Config>
+  <Config Name="Encryption Key" Target="ENCRYPTION_KEY" Default="" Mode="" Description="generate a secure key to encrypt your Tesla API tokens" Type="Variable" Display="always" Required="true" Mask="true">cyB8N7m3*g6rb_ptMR..FLjtnWqRBGjz</Config>
+  <Config Name="Postgres User" Target="DATABASE_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">teslamate</Config>
+  <Config Name="Postgres Password" Target="DATABASE_PASS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true">tgxGJnwYQH2D8u9BkHWoGQnWfyYinMXY</Config>
+  <Config Name="Postgres Database" Target="DATABASE_NAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">teslamate</Config>
+  <Config Name="DATABASE_HOST" Target="DATABASE_HOST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">10.0.0.10</Config>
+  <Config Name="Disable MQTT" Target="DISABLE_MQTT" Default="false" Mode="" Description="Set to " Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="MQTT_HOST" Target="MQTT_HOST" Default="" Mode="" Description="IP address of your MQTT broker (mosquitto most commonly)" Type="Variable" Display="always" Required="false" Mask="false">10.0.0.11</Config>
+  <Config Name="MQTT Username" Target="MQTT_USERNAME" Default="" Mode="" Description="Leave empty if usinge anonymous mode" Type="Variable" Display="always" Required="false" Mask="false">mosquitto</Config>
+  <Config Name="MQTT Password" Target="MQTT_PASSWORD" Default="" Mode="" Description="Leave empty if usinge anonymous mode" Type="Variable" Display="always" Required="false" Mask="true">y3rYMUYxq8njfPoVsAwGCTXPnurvvUip</Config>
+</Container>

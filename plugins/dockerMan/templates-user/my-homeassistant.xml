@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>homeassistant</Name>
+  <Repository>lscr.io/linuxserver/homeassistant</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/homeassistant</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/linuxserver/docker-homeassistant/issues/new/choose</Support>
+  <Project>https://www.home-assistant.io/</Project>
+  <Overview>Home Assistant Core(https://www.home-assistant.io/) - Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:8123]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/homeassistant-logo.png</Icon>
+  <ExtraParams>-v /run/dbus:/run/dbus:ro</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1696562284</DateInstalled>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Requires/>
+  <Config Name="Port: 8123" Target="8123" Default="8123" Mode="tcp" Description="Application WebUI, only use this if you are not using host mode." Type="Port" Display="always" Required="false" Mask="false">8123</Config>
+  <Config Name="Dbus (Bluethooth)" Target="/run/dbus" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/run/dbus</Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/homeassistant" Mode="rw" Description="Home Assistant config storage path." Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/homeassistant</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+</Container>

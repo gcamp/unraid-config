@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Define the disks to monitor
+disks=("sdc" "sdd" "sde")
+
+# Define the path for Node Exporter text file
+node_exporter_textfile="/mnt/user/appdata/prometheus/textfile/disk_spin_status.prom"
+rm "$node_exporter_textfile"
+
+# Loop through each disk and get its spin status using hdparm -C
+for disk in "${disks[@]}"; do
+    spin_status=$(sudo hdparm -C "/dev/${disk}" | grep "drive state" | awk '{print $NF}')
+    
+    # Convert spin status to 1 if spinning, 0 if not spinning
+    if [ "$spin_status" == "standby" ]; then
+        spin_status_numeric=0
+    else
+        spin_status_numeric=1
+    fi
+
+    # Write metric to Node Exporter text file
+    echo "disk_spin_status{disk=\"${disk}\"} ${spin_status_numeric}" >> "$node_exporter_textfile"
+done
+
+# Print completion message
+echo "Node Exporter text file created at: $node_exporter_textfile"
+

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Dropbox</Name>
+  <Repository>roninkenji/dropbox-docker</Repository>
+  <Registry>https://hub.docker.com/r/roninkenji/dropbox-docker/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>http://forums.unraid.net/index.php?topic=46401.0</Support>
+  <Project/>
+  <Overview>What is Dropbox?&#xD;
+"One place for all your stuff, wherever you are."&#xD;
+&#xD;
+Dropbox is a home for all your photos, docs, videos, and files. Anything you add to Dropbox will automatically show up on all your computers, phones and even the Dropbox website... so you can access your stuff from anywhere.&#xD;
+&#xD;
+Dropbox also makes it super easy to share with others, whether you're a student or professional, parent or grandparent. Even if you accidentally spill a latte on your laptop, have no fear! Relax knowing that your stuff is safe in Dropbox and will never be lost.&#xD;
+&#xD;
+Container Mountpoints:&#xD;
+* /dropbox : Dropbox home folder. The dropbox app needs to be able to change the folders out to upgrade itself.&#xD;
+* /dropbox/Dropbox : Dropbox user files. This is your sync'd data folder. It can be share or just a plain folder under appdata. Do not use a cache + array folder as the Mover will break your files&#xD;
+&#xD;
+Network Ports:&#xD;
+* 17500 : Dropbox LAN sync&#xD;
+* 17500/udp : Dropbox LAN sync&#xD;
+&#xD;
+Environment Variables:&#xD;
+* DROPBOX_USER: Dropbox user (default: nobody)&#xD;
+* DROPBOX_USERID: Dropbox user id (default: 99)&#xD;
+* DROPBOX_GROUP: Dropbox user group (default: users)&#xD;
+* DROPBOX_GROUPID: Dropbox user group id (default: 100)&#xD;
+</Overview>
+  <Category>Cloud:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/roninkenji/unraid-docker-templates/master/roninkenji/Dropbox.xml</TemplateURL>
+  <Icon>https://cf.dropboxstatic.com/static/images/icons/blue_dropbox_glyph-vflJ8-C5d.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1745335193</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config folder" Target="/dropbox" Default="/mnt/user/appdata/dropbox" Mode="rw" Description="Configuration files and updated dropbox binaries are stored here." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/dropbox</Config>
+  <Config Name="Data files" Target="/dropbox/Dropbox" Default="/mnt/cache/Dropbox" Mode="rw" Description="This directory will contain the files sync'd into your Dropbox account. Use only a share where the cache setting is Only or No." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/dropbox-backup/</Config>
+  <Config Name="User" Target="DROPBOX_USER" Default="nobody" Mode="" Description="User to run dropbox as." Type="Variable" Display="advanced" Required="false" Mask="false">nobody</Config>
+  <Config Name="User ID" Target="DROPBOX_USERID" Default="99" Mode="" Description="uid to run dropbox as." Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="Group" Target="DROPBOX_GROUP" Default="users" Mode="" Description="Group to run dropbox as." Type="Variable" Display="advanced" Required="false" Mask="false">users</Config>
+  <Config Name="Group ID" Target="DROPBOX_GROUPID" Default="100" Mode="" Description="gid to run dropbox as." Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="Lan Sync Port (TCP)" Target="17500" Default="17500" Mode="tcp" Description="Port for Lan Sync" Type="Port" Display="advanced" Required="true" Mask="false">17500</Config>
+  <Config Name="Lan Sync Port (UDP)" Target="17500" Default="17500" Mode="udp" Description="Port for Lan Sync" Type="Port" Display="advanced" Required="true" Mask="false">17500</Config>
+  <Config Name="Timezone file" Target="/etc/localtime" Default="/etc/localtime" Mode="ro" Description="Timezone file" Type="Path" Display="advanced-hide" Required="true" Mask="false">/etc/localtime</Config>
+  <TailscaleStateDir/>
+</Container>

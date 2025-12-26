@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE PLUGIN [
+<!ENTITY name "docker.versions">
+<!ENTITY author "phyzical">
+<!ENTITY github "&author;/&name;">
+<!ENTITY launch "Settings/docker.versions">
+<!ENTITY plugdir "/usr/local/emhttp/plugins/&name;">
+<!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/main/&name;.plg">
+<!ENTITY version "2025.10.31">
+<!ENTITY md5 "1eef9c48070bb58664eeb750d047a9ff">
+]>
+<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" min="7.2.0" support="https://github.com/phyzical/docker.versions">
+  <CHANGES>
+###2025.10.31
+- Fixed styling to support 7.2.0 ui changes
+
+###2024.11.24
+- Adjusted the changelog parser to avoid false positive matches
+
+###2024.11.22
+- Added some additional file exists checks to avoid warnings
+- Added logic to be able to view the saved token, and also save it as an empty value for no token
+
+###2024.11.03
+- Fix an invalid reference to sourceType context
+- Support changelogs urls that are not hosted on github
+###2024.11.02
+- Add cancel and update button to changelog popup
+- Adjusted docker.versions.source to be a comma separated list
+- Changed all summaries to be open by default
+- Reworked readme
+- Added a new fallback of commit messages, falls back if no tags are found or is enforced via sourceType
+- Added new labels sourceType and imageSourceType, these are used enforce only parsing as a specific type instead of checking one by one
+- This can be useful to avoid extra api calls or enforce a specific type, i.e you might only care about commit message logs and tags takes too long.
+###2024.10.31
+- Fix text wrapping so you dont need to scroll to the right to see long changelogs
+###2024.10.02
+- Fix archiving permissions
+- Add automated versioning to the plugin via ci
+
+###2024.10.01
+- Fix type issue on settings page function
+- Fix fallback date being too soon and just use last 2 months instead
+- Avoid adding empty "duplicate changlogs" 
+- Fix a early access issue around secondary changelogs after refactor
+- Hardcode background as white to avoid theme issues
+
+###2024.09.30
+- Fix regression around missing open containers image date
+- Fix fallback to secondary when primary source is missing
+
+###2024.09.29
+- Added new label `docker.versions.tagIgnorePrefixes` to be able to ignore certain tags per container 
+- Refactored the `addChangelogButton` function to improve readability and maintainability, and added an interval to refresh changelog buttons every 5 seconds in `changelog.js`.
+- Updated the `popup` function to handle different types of messages and display them appropriately in the iframe.
+- Changed the `loading` message in `GetChangelog.php` to be hidden by default.
+- Improved warning messages and fallback mechanisms in the `getRepositorySource` and `getChangeLogs` methods in `Container.php` and `Containers.php` respectively. 
+- Added a new `Generic` helper class to handle date conversions in `Generic.php` and utilized it in `Container.php` and `Release.php`.
+- Included the `Generic` helper class in relevant files to support new utility functions. 
+- Changed the default message in `loadingMessage` function in `Publish.php` to "Finished loading".
+- imporoved the ui of changelogs with collapse able sections 
+- use the container created if no OC created, fallback to 6 months if no matches then all if non after that
+- reworked how the github url is parsed instead of assuming a specific format 
+- added support for changelog files for extacting changes from the source
+
+###2024.08.31
+- Skip pre-release versions
+- Remove current image from changelogs
+- Added logic to provide a secondary source of `docker.versions.source` to fall back to or use to add additional changelog information where a match is found by date or name
+- Added logic to try and group releases together where the changelogs are the same
+- Added logic to show loading text when requests are made to avoid it looking broken
+
+###2024.08.27
+- Fixed broken refactor changes
+- imlemented nchan for dynamic popup updates
+
+###2024.08.23
+- Added logic to fall back to git tags when no releases are found on github
+- Added new icon
+- Added new settings page to add github token
+- Refactored all logic into namespaced classes for better organization
+
+###2024.07.25
+- Added logic to fall back to guesses based on various unraid properties and labels
+
+###2024.07.24
+- Initial Release
+    </CHANGES>
+  <!-- New source file -->
+  <FILE Name="/boot/config/plugins/&name;/&name;-&version;.txz" Run="upgradepkg --install-new">
+    <URL>https://raw.github.com/&github;/main/archive/&name;-&version;.txz</URL>
+    <MD5>&md5;</MD5>
+  </FILE>
+  <!-- Post install -->
+  <FILE Run="/bin/bash">
+    <INLINE>
+            mkdir -p /boot/config/plugins/&name;/styles
+            mkdir -p /boot/config/plugins/&name;/scripts
+            rm -f $(ls /boot/config/plugins/&name;/&name;*.txz | grep -v '&version;')
+            echo "&version;"&gt; /boot/config/plugins/&name;/version
+            echo ""
+            echo "----------------------------------------------------"
+            echo " &name; has been installed."
+            echo " Version: &version;"
+            echo "----------------------------------------------------"
+            echo ""
+        </INLINE>
+  </FILE>
+  <!-- Remove the plugin -->
+  <FILE Run="/bin/bash" Method="remove">
+    <INLINE>
+            removepkg &name;-&version;
+            rm -rf &plugdir;
+            rm -rf /boot/config/plugins/&name;
+        </INLINE>
+  </FILE>
+</PLUGIN>

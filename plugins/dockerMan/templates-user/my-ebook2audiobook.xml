@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ebook2audiobook</Name>
+  <Repository>athomasson2/ebook2audiobook:latest</Repository>
+  <Registry>https://hub.docker.com/r/athomasson2/ebook2audiobook</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/DrewThomasson/ebook2audiobook/issues</Support>
+  <Project>https://github.com/DrewThomasson/ebook2audiobook</Project>
+  <Overview>CPU/GPU Converter from eBooks to audiobooks with chapters and metadata using Calibre, ffmpeg, XTTSv2, Fairseq and more. Supports voice cloning and 1124 languages! &#xD;
+        &#xD;
+        For Nvidia GPU support, add "--gpus all" to the Extra Parameters field under Advanced.</Overview>
+  <Category>AI: MediaApp:Books MediaServer:Books Productivity: Tools:Utilities Other:</Category>
+  <WebUI>http://[IP]:[PORT:7860]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/nwithan8/unraid_templates/main/templates/ebook_2_audiobook_v2.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/nwithan8/unraid_templates/master/images/ebook-2-audiobook-icon.png</Icon>
+  <ExtraParams>--platform=linux/amd64</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1761079144</DateInstalled>
+  <DonateText>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But perhaps you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/nwithan8</DonateLink>
+  <Requires/>
+  <Config Name="Web UI Port" Target="7860" Default="7860" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">7860</Config>
+  <Config Name="Temp Path" Target="/home/user/app/tmp" Default="" Mode="rw" Description="Path to temporary files." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/books/temp</Config>
+  <Config Name="Audiobooks Path" Target="/home/user/app/audiobooks" Default="" Mode="rw" Description="Path to audiobooks." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/books/</Config>
+  <Config Name="Models Path" Target="/home/user/app/models" Default="" Mode="rw" Description="Path to models. Warning, this can consume a large amount of space." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/data/media/books/models/</Config>
+  <Config Name="PUID" Target="PUID" Default="1000" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">1000</Config>
+  <Config Name="PGID" Target="PGID" Default="1000" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">1000</Config>
+  <TailscaleStateDir/>
+</Container>

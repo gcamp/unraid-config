@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>beszel-agent</Name>
+  <Repository>henrygd/beszel-agent:latest</Repository>
+  <Registry>https://hub.docker.com/r/henrygd/beszel/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/henrygd/beszel/issues</Support>
+  <Project>https://github.com/henrygd/beszel</Project>
+  <Overview>Agent for Beszel -- a lightweight server monitoring hub.</Overview>
+  <Category>Tools:Utilities Network:Management</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/JamsRepos/Unraid-Templates/master/templates/beszel-agent.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/JamsRepos/Unraid-Templates/master/logos/beszel.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1737346613</DateInstalled>
+  <DonateText>Feeling generous?  Consider sponsoring me on GitHub!</DonateText>
+  <DonateLink>https://github.com/sponsors/JamsRepos</DonateLink>
+  <Requires>You will need to configure the beszel web panel along-side this container. This is a reporting agent only.&#xD;
+This container must stay on the host network for reporting purposes.</Requires>
+  <Config Name="Listen Port" Target="PORT" Default="45876" Mode="" Description="The port which you have opened for the SSH port." Type="Variable" Display="always" Required="false" Mask="false">45876</Config>
+  <Config Name="SSH Key" Target="KEY" Default="" Mode="" Description="Public SSH Key to use for authentication. Provided by the web panel." Type="Variable" Display="always" Required="true" Mask="false">ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINCobKjbeRDfRfhpcEOS1jQeBchaPmOgrp3bHTKN0mGW</Config>
+  <Config Name="Root File System" Target="FILESYSTEM" Default="" Mode="" Description="Filesystem/partition to use for disk I/O stats. Use 'df -h' to find one." Type="Variable" Display="always" Required="false" Mask="false">/</Config>
+  <Config Name="File System #1" Target="/extra-filesystems/cache" Default="" Mode="ro" Description="The path of the file system you wish to monitor. If you have multiple file systems you wish to monitor, duplicate this path mapping and rename accordingly. " Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/.beszel</Config>
+  <Config Name="Docker Socket" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="ro" Description="" Type="Path" Display="advanced" Required="true" Mask="false">/var/run/docker.sock</Config>
+</Container>

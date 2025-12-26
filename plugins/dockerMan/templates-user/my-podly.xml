@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>podly</Name>
+  <Repository>ghcr.io/jdrbc/podly-pure-podcasts:main-latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://podly.up.railway.app/images/logos/logo.webp</Icon>
+  <ExtraParams>--memory=5G --cpus=1 --memory-swap=5G</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1766715724</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="5001" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5001</Config>
+  <Config Name="Host Path 1" Target="/app/src/instance" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/podly/instance</Config>
+  <Config Name="Host Key 1" Target="WHISPER_TYPE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">local</Config>
+  <Config Name="Host Key 4" Target="WHISPER_LOCAL_MODEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">small</Config>
+  <Config Name="Host Key 4" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
+  <Config Name="Host Key 5" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
+  <Config Name="Host Key 6" Target="SERVER_THREADS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="Host Key 7" Target="LLM_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">AIzaSyCZHu_u9mGVnc2hsC56iu02gIiLwNBrwwM</Config>
+  <Config Name="Host Key 8" Target="LLM_MODEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">gemini/gemini-3-flash-preview</Config>
+  <Config Name="Host Key 8" Target="LITELLM_LOG" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">DEBUG</Config>
+  <Config Name="Host Key 9" Target="GEMINI_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">AIzaSyCZHu_u9mGVnc2hsC56iu02gIiLwNBrwwM</Config>
+  <TailscaleStateDir/>
+</Container>

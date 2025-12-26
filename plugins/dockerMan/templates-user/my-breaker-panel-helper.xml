@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>breaker-panel-helper</Name>
+  <Repository>ghcr.io/gcamp/breaker-panel-helper:latest</Repository>
+  <Registry>https://github.com/gcamp/breaker-panel-helper</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>Breaker Panel Helper is a comprehensive electrical panel management application that allows you to:&#xD;
+    - Track and manage electrical breakers across multiple panels&#xD;
+    - Support for single, double-pole, and tandem breakers&#xD;
+    - Circuit management with room assignments and detailed notes&#xD;
+    - Critical breaker planning and move operations&#xD;
+    - French/English localization&#xD;
+    - Visual panel layout with drag-and-drop room management&#xD;
+    - Export and print functionality&#xD;
+&#xD;
+&#xD;
+ Perfect for electricians, homeowners, and facilities managers.</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/gcamp/breaker-panel-helper/main/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1753116795</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="UI port" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3501</Config>
+  <Config Name="Host Key 1" Target="DB_PATH" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/app/data/breaker_panel.db</Config>
+  <Config Name="Database Storage" Target="/app/data" Default="" Mode="rw" Description="Persistent storage for SQLite database" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/breaker-panel-helper</Config>
+  <TailscaleStateDir/>
+</Container>

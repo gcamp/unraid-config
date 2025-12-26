@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>PodFetch</Name>
+  <Repository>samuel19982/podfetch:latest</Repository>
+  <Registry>https://hub.docker.com/r/samuel19982/podfetch</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/144365-support-podfetch-support-thread/</Support>
+  <Project>https://github.com/SamTV12345/PodFetch/wiki</Project>
+  <Overview>Description&#xD;
+&#xD;
+        PodFetch is a free, web-based Podcast server, which allows to download podcasts from Rss feeds, iTunes and.PodIndex. It also contains a configuration for Single Sign On(SSO) and GPodder synchronization, allowing you to login via AntennaPod and enjoy a synchronized listening experience between the browser and your phone. So just grab your phone, start listening your favorite podcast and once your back at your Laptop you can continue right where you stopped.&#xD;
+&#xD;
+&#xD;
+        Configuration&#xD;
+&#xD;
+        /db This is where the application stores it SQLite database.&#xD;
+&#xD;
+        /podcasts This is where all the podcasts are saved locally.&#xD;
+&#xD;
+&#xD;
+        Documentation&#xD;
+&#xD;
+        https://github.com/SamTV12345/PodFetch/wiki&#xD;
+&#xD;
+</Overview>
+  <Category>MediaServer:Music MediaServer:Other</Category>
+  <WebUI>http://[IP]:[PORT:8000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/SamTV12345/podfetch-unraid-config/master/podfetch-sqlite.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/SamTV12345/PodFetch/main/ui/public/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1741011419</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web UI Port" Target="8000" Default="8000" Mode="tcp" Description="Public UI and API port." Type="Port" Display="always-hide" Required="true" Mask="false">8040</Config>
+  <Config Name="Database path for SQLite" Target="/app/db" Default="/mnt/user/appdata/podfetch/db" Mode="rw" Description="" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/appdata/podfetch/db</Config>
+  <Config Name="Server URL" Target="SERVER_URL" Default="" Mode="{3}" Description="Url to your PodFetch server instance" Type="Variable" Display="always-hide" Required="true" Mask="false">https://podfetch.gcamp.me</Config>
+  <Config Name="Podcast path" Target="/app/podcasts" Default="" Mode="rw" Description="Path where your podcasts are saved" Type="Path" Display="always-hide" Required="true" Mask="false">/mnt/user/data/media/podcast/</Config>
+  <Config Name="GPODDER_INTEGRATION_ENABLED" Target="GPODDER_INTEGRATION_ENABLED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="Enable gPodder Integration" Target="GPODDER_INTEGRATION_ENABLED" Default="true|false" Mode="{3}" Description="Allow gPodder sync with apps such as AntennaPod" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+  <Config Name="Behind Reverse Proxy" Target="REVERSE_PROXY" Default="false|true" Mode="{3}" Description="Indicates if the server is behind a reverse proxy" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+  <Config Name="Basic auth" Target="BASIC_AUTH" Default="" Mode="{3}" Description="Indicates if present that basic auth should be added" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Basic auth username" Target="USERNAME" Default="" Mode="{3}" Description="Your basic auth username" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Basic auth password" Target="PASSWORD" Default="" Mode="{3}" Description="Your basic auth password" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+  <Config Name="Oidc auth" Target="OIDC_AUTH" Default="" Mode="{3}" Description="Indicates that OIDC auth should be used" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="OIDC authority" Target="OIDC_AUTHORITY" Default="" Mode="{3}" Description="The url of the OIDC authority." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="OIDC client id" Target="OIDC_CLIENT_ID" Default="" Mode="{3}" Description="Client id of the oidc client. Note that this is a public client without a secret" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="OIDC Redirect URI" Target="OIDC_REDIRECT_URI" Default="" Mode="{3}" Description="Redirect URI of PodFetch. This is normally your server url variable + /ui/login" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="OIDC scope" Target="OIDC_SCOPE" Default="openid profile email" Mode="{3}" Description="Scope of the OIDC token" Type="Variable" Display="advanced" Required="false" Mask="false">openid profile email</Config>
+  <Config Name="OIDC JWKS url" Target="OIDC_JWKS" Default="" Mode="{3}" Description="The JWKS token uri, e.g. /realms/master/protocol/openid-connect/certs" Type="Variable" Display="advanced" Required="false" Mask="true"/>
+  <TailscaleStateDir/>
+</Container>

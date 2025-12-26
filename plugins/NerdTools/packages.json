@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "aria2-1.37.0-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz",
+    "sha": "4ef8dec88e0e01537e41a3b9e1505f06edffc5f7",
+    "size": 1227424,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4ef8dec88e0e01537e41a3b9e1505f06edffc5f7",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4ef8dec88e0e01537e41a3b9e1505f06edffc5f7",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/aria2-1.37.0-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "audit-3.0.7-x86_64-2_SBo_UES.txz",
+    "path": "packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz",
+    "sha": "ee6e0d86ba4c7428a7757f2cda86578845adc3bb",
+    "size": 460332,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ee6e0d86ba4c7428a7757f2cda86578845adc3bb",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ee6e0d86ba4c7428a7757f2cda86578845adc3bb",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/audit-3.0.7-x86_64-2_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "autossh-1.4g-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz",
+    "sha": "3c5a6d88d9ae0308964a912e372542b233b44157",
+    "size": 24352,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/3c5a6d88d9ae0308964a912e372542b233b44157",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/3c5a6d88d9ae0308964a912e372542b233b44157",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/autossh-1.4g-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "axel-2.17.11-x86_64-3_SBo.txz",
+    "path": "packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz",
+    "sha": "f92371a864128ccd86202ad532fb4cb4c3d5cead",
+    "size": 53828,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f92371a864128ccd86202ad532fb4cb4c3d5cead",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f92371a864128ccd86202ad532fb4cb4c3d5cead",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/axel-2.17.11-x86_64-3_SBo.txz"
+    }
+  },
+  {
+    "name": "bc-1.07.1-x86_64-5.txz",
+    "path": "packages/pkgs/bc-1.07.1-x86_64-5.txz",
+    "sha": "2489bca747a9da594eb28a808354e4e8d0b65e2a",
+    "size": 115844,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bc-1.07.1-x86_64-5.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bc-1.07.1-x86_64-5.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/2489bca747a9da594eb28a808354e4e8d0b65e2a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/bc-1.07.1-x86_64-5.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bc-1.07.1-x86_64-5.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/2489bca747a9da594eb28a808354e4e8d0b65e2a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bc-1.07.1-x86_64-5.txz"
+    }
+  },
+  {
+    "name": "bluez-5.71-x86_64-2_slack15.0.txz",
+    "path": "packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz",
+    "sha": "44eb2ce850f541ba6842056133606eef70097fcd",
+    "size": 1470196,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/44eb2ce850f541ba6842056133606eef70097fcd",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/44eb2ce850f541ba6842056133606eef70097fcd",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bluez-5.71-x86_64-2_slack15.0.txz"
+    }
+  },
+  {
+    "name": "borgbackup-1.2.7-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz",
+    "sha": "db5e1d6c93c43901cfb4d18162f99965866308d7",
+    "size": 1155788,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/db5e1d6c93c43901cfb4d18162f99965866308d7",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/db5e1d6c93c43901cfb4d18162f99965866308d7",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/borgbackup-1.2.7-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "btop-1.2.13-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz",
+    "sha": "97d85f8fe5dfa979541263b30521f7a6f8347426",
+    "size": 448876,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/97d85f8fe5dfa979541263b30521f7a6f8347426",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/97d85f8fe5dfa979541263b30521f7a6f8347426",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/btop-1.2.13-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "bwm-ng-0.6.3-x86_64-2_SBo_UES.txz",
+    "path": "packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz",
+    "sha": "dc1a2582031ffb23fffc6f7479784cba966ac3bf",
+    "size": 45732,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/dc1a2582031ffb23fffc6f7479784cba966ac3bf",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/dc1a2582031ffb23fffc6f7479784cba966ac3bf",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/bwm-ng-0.6.3-x86_64-2_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "cksfv-1.3.14-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz",
+    "sha": "c6ae9f75e1640288fb89b66d6f734dadbe17be5a",
+    "size": 23128,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c6ae9f75e1640288fb89b66d6f734dadbe17be5a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c6ae9f75e1640288fb89b66d6f734dadbe17be5a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/cksfv-1.3.14-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "ddrescue-1.27-x86_64-1.txz",
+    "path": "packages/pkgs/ddrescue-1.27-x86_64-1.txz",
+    "sha": "62fbe8c1a40d79443c931ab6eabe1c5e056bae5d",
+    "size": 113520,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ddrescue-1.27-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ddrescue-1.27-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/62fbe8c1a40d79443c931ab6eabe1c5e056bae5d",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/ddrescue-1.27-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ddrescue-1.27-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/62fbe8c1a40d79443c931ab6eabe1c5e056bae5d",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ddrescue-1.27-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "exiftool-12.76-noarch-1_SBo_UES.txz",
+    "path": "packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz",
+    "sha": "42f8e75e0b65f8f2b176e3c0f5c74bc473b8a5f3",
+    "size": 3699332,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/42f8e75e0b65f8f2b176e3c0f5c74bc473b8a5f3",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/42f8e75e0b65f8f2b176e3c0f5c74bc473b8a5f3",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/exiftool-12.76-noarch-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "fdupes-1.6.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz",
+    "sha": "c6c05ecb5a17d517582a756ea2ba6b617229bb91",
+    "size": 19640,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c6c05ecb5a17d517582a756ea2ba6b617229bb91",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c6c05ecb5a17d517582a756ea2ba6b617229bb91",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fdupes-1.6.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "fio-3.36-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz",
+    "sha": "ec8159c936930fea4124fed5eb382e5400a30e55",
+    "size": 6431352,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ec8159c936930fea4124fed5eb382e5400a30e55",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ec8159c936930fea4124fed5eb382e5400a30e55",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fio-3.36-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "fish-3.7.0-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz",
+    "sha": "98019d7d52c4a064494b85e5aebfca4cfe06db14",
+    "size": 2967172,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/98019d7d52c4a064494b85e5aebfca4cfe06db14",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/98019d7d52c4a064494b85e5aebfca4cfe06db14",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fish-3.7.0-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "fzf-0.46.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz",
+    "sha": "bbc27963b36bd43ff69f0d2bd996e213f578b10a",
+    "size": 1238808,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/bbc27963b36bd43ff69f0d2bd996e213f578b10a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/bbc27963b36bd43ff69f0d2bd996e213f578b10a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/fzf-0.46.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "gnupg2-2.4.3-x86_64-1.txz",
+    "path": "packages/pkgs/gnupg2-2.4.3-x86_64-1.txz",
+    "sha": "924557e173ec1f3d75618535ee5da9bbb035ba48",
+    "size": 2636436,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/gnupg2-2.4.3-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/gnupg2-2.4.3-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/924557e173ec1f3d75618535ee5da9bbb035ba48",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/gnupg2-2.4.3-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/gnupg2-2.4.3-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/924557e173ec1f3d75618535ee5da9bbb035ba48",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/gnupg2-2.4.3-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "gpgme-1.16.0-x86_64-3.txz",
+    "path": "packages/pkgs/gpgme-1.16.0-x86_64-3.txz",
+    "sha": "fd0233ad0014609a0bdacc4f265fb79ed2ebd977",
+    "size": 1030892,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/gpgme-1.16.0-x86_64-3.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/gpgme-1.16.0-x86_64-3.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fd0233ad0014609a0bdacc4f265fb79ed2ebd977",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/gpgme-1.16.0-x86_64-3.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/gpgme-1.16.0-x86_64-3.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fd0233ad0014609a0bdacc4f265fb79ed2ebd977",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/gpgme-1.16.0-x86_64-3.txz"
+    }
+  },
+  {
+    "name": "iftop-1.0pre4-x86_64-4.txz",
+    "path": "packages/pkgs/iftop-1.0pre4-x86_64-4.txz",
+    "sha": "ff5ac9ce1399d053aa2e86e0627873cbb42d0e3b",
+    "size": 40252,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/iftop-1.0pre4-x86_64-4.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/iftop-1.0pre4-x86_64-4.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ff5ac9ce1399d053aa2e86e0627873cbb42d0e3b",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/iftop-1.0pre4-x86_64-4.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/iftop-1.0pre4-x86_64-4.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ff5ac9ce1399d053aa2e86e0627873cbb42d0e3b",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/iftop-1.0pre4-x86_64-4.txz"
+    }
+  },
+  {
+    "name": "iotop-0.6-x86_64-3_SBo_UES.txz",
+    "path": "packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz",
+    "sha": "6c82cf33b882a7e4a72869ef7c5a8ddb1fe9a1f7",
+    "size": 41872,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6c82cf33b882a7e4a72869ef7c5a8ddb1fe9a1f7",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6c82cf33b882a7e4a72869ef7c5a8ddb1fe9a1f7",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/iotop-0.6-x86_64-3_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "ipmitool-1.8.18-x86_64-1_SBo.txz",
+    "path": "packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz",
+    "sha": "ee73a9e3d58ef5715f61ffc36d97b166e730a5a6",
+    "size": 408544,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ee73a9e3d58ef5715f61ffc36d97b166e730a5a6",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ee73a9e3d58ef5715f61ffc36d97b166e730a5a6",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ipmitool-1.8.18-x86_64-1_SBo.txz"
+    }
+  },
+  {
+    "name": "irssi-1.4.4-x86_64-1_slack15.0.txz",
+    "path": "packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz",
+    "sha": "9ed8e0a905d6605c1ac903c02f0642cecde8e7b9",
+    "size": 683420,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/9ed8e0a905d6605c1ac903c02f0642cecde8e7b9",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/9ed8e0a905d6605c1ac903c02f0642cecde8e7b9",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/irssi-1.4.4-x86_64-1_slack15.0.txz"
+    }
+  },
+  {
+    "name": "jdupes-1.27.3-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz",
+    "sha": "d697f272c17c215e4570acf2a661e28d2aafe06b",
+    "size": 54648,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/d697f272c17c215e4570acf2a661e28d2aafe06b",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/d697f272c17c215e4570acf2a661e28d2aafe06b",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/jdupes-1.27.3-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "lftp-4.9.2-x86_64-3.txz",
+    "path": "packages/pkgs/lftp-4.9.2-x86_64-3.txz",
+    "sha": "85f84fe8281ef50d325af08092cd6a3cb490170a",
+    "size": 906912,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/lftp-4.9.2-x86_64-3.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/lftp-4.9.2-x86_64-3.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/85f84fe8281ef50d325af08092cd6a3cb490170a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/lftp-4.9.2-x86_64-3.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/lftp-4.9.2-x86_64-3.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/85f84fe8281ef50d325af08092cd6a3cb490170a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/lftp-4.9.2-x86_64-3.txz"
+    }
+  },
+  {
+    "name": "libassuan-2.5.6-x86_64-1.txz",
+    "path": "packages/pkgs/libassuan-2.5.6-x86_64-1.txz",
+    "sha": "38c69ba533f2f3e7ae738abdd705a55c7f8d794b",
+    "size": 121764,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libassuan-2.5.6-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libassuan-2.5.6-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/38c69ba533f2f3e7ae738abdd705a55c7f8d794b",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libassuan-2.5.6-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libassuan-2.5.6-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/38c69ba533f2f3e7ae738abdd705a55c7f8d794b",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libassuan-2.5.6-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "libjodycode-3.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz",
+    "sha": "cc4490a0dcd00addcdbed7f0a3abe46bd31f0d23",
+    "size": 40316,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/cc4490a0dcd00addcdbed7f0a3abe46bd31f0d23",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/cc4490a0dcd00addcdbed7f0a3abe46bd31f0d23",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libjodycode-3.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "libmediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "sha": "2d61bbf9ea0aa8db49ae547e739d19f363f2a757",
+    "size": 2829248,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/2d61bbf9ea0aa8db49ae547e739d19f363f2a757",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/2d61bbf9ea0aa8db49ae547e739d19f363f2a757",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libmediainfo-24.01-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "libnl-1.1.4-x86_64-5.txz",
+    "path": "packages/pkgs/libnl-1.1.4-x86_64-5.txz",
+    "sha": "875102f0deaf26ae1cc036f1a93552aacb8009a8",
+    "size": 126632,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libnl-1.1.4-x86_64-5.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libnl-1.1.4-x86_64-5.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/875102f0deaf26ae1cc036f1a93552aacb8009a8",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libnl-1.1.4-x86_64-5.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libnl-1.1.4-x86_64-5.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/875102f0deaf26ae1cc036f1a93552aacb8009a8",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libnl-1.1.4-x86_64-5.txz"
+    }
+  },
+  {
+    "name": "libsodium-1.0.18-x86_64-3.txz",
+    "path": "packages/pkgs/libsodium-1.0.18-x86_64-3.txz",
+    "sha": "1fdcda9ad536492ae78d1e6013f6d9639f9f3605",
+    "size": 169616,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libsodium-1.0.18-x86_64-3.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libsodium-1.0.18-x86_64-3.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1fdcda9ad536492ae78d1e6013f6d9639f9f3605",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libsodium-1.0.18-x86_64-3.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libsodium-1.0.18-x86_64-3.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1fdcda9ad536492ae78d1e6013f6d9639f9f3605",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libsodium-1.0.18-x86_64-3.txz"
+    }
+  },
+  {
+    "name": "liburing-2.5-x86_64-1.txz",
+    "path": "packages/pkgs/liburing-2.5-x86_64-1.txz",
+    "sha": "6a0876eebe383049052654c555ac6f94e360a56e",
+    "size": 168848,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/liburing-2.5-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/liburing-2.5-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6a0876eebe383049052654c555ac6f94e360a56e",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/liburing-2.5-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/liburing-2.5-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6a0876eebe383049052654c555ac6f94e360a56e",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/liburing-2.5-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "libzen-0.4.41-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz",
+    "sha": "c407b17b707a3ec9fcb606995ac63254c25e68be",
+    "size": 376312,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c407b17b707a3ec9fcb606995ac63254c25e68be",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c407b17b707a3ec9fcb606995ac63254c25e68be",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/libzen-0.4.41-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "llfuse-1.4.2-x86_64-1_SBo.txz",
+    "path": "packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz",
+    "sha": "694aa3cd3e8cc26d0658fbd2b963ebf3874165df",
+    "size": 221744,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/694aa3cd3e8cc26d0658fbd2b963ebf3874165df",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/694aa3cd3e8cc26d0658fbd2b963ebf3874165df",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/llfuse-1.4.2-x86_64-1_SBo.txz"
+    }
+  },
+  {
+    "name": "mediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "sha": "821eab9a4a87fd0bb8105c43a49103e3d0fa4886",
+    "size": 70352,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/821eab9a4a87fd0bb8105c43a49103e3d0fa4886",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/821eab9a4a87fd0bb8105c43a49103e3d0fa4886",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mediainfo-24.01-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz",
+    "sha": "e80bce534543a0c7b909352e9d569fd663b1512b",
+    "size": 14776,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e80bce534543a0c7b909352e9d569fd663b1512b",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e80bce534543a0c7b909352e9d569fd663b1512b",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mktorrent-1.1_de7d011-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "mlocate-0.26-x86_64-4.txz",
+    "path": "packages/pkgs/mlocate-0.26-x86_64-4.txz",
+    "sha": "41141cb7e221d042ec9e9c7bad69b89adb0da424",
+    "size": 106260,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mlocate-0.26-x86_64-4.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mlocate-0.26-x86_64-4.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/41141cb7e221d042ec9e9c7bad69b89adb0da424",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/mlocate-0.26-x86_64-4.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/mlocate-0.26-x86_64-4.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/41141cb7e221d042ec9e9c7bad69b89adb0da424",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/mlocate-0.26-x86_64-4.txz"
+    }
+  },
+  {
+    "name": "msgpack-python-1.0.5-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz",
+    "sha": "fe249693e5efebe9b11cd5c08936974937c9fb40",
+    "size": 82316,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fe249693e5efebe9b11cd5c08936974937c9fb40",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fe249693e5efebe9b11cd5c08936974937c9fb40",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/msgpack-python-1.0.5-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "ncdu-1.17-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz",
+    "sha": "1e34ccaf8b335a38b1e51acb79bc8b4eba9d57f5",
+    "size": 45492,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1e34ccaf8b335a38b1e51acb79bc8b4eba9d57f5",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1e34ccaf8b335a38b1e51acb79bc8b4eba9d57f5",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ncdu-1.17-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "neofetch-20211210_ccd5d9f5-noarch-1.txz",
+    "path": "packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz",
+    "sha": "dc559e2a99a5ef9443b5bb40b35f69eb3797ee9f",
+    "size": 89584,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/dc559e2a99a5ef9443b5bb40b35f69eb3797ee9f",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/dc559e2a99a5ef9443b5bb40b35f69eb3797ee9f",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/neofetch-20211210_ccd5d9f5-noarch-1.txz"
+    }
+  },
+  {
+    "name": "netcat-0.7.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz",
+    "sha": "4795156f2b80d62edc7fdaeece9b1ae1fd137dda",
+    "size": 51064,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4795156f2b80d62edc7fdaeece9b1ae1fd137dda",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4795156f2b80d62edc7fdaeece9b1ae1fd137dda",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/netcat-0.7.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "nload-0.7.4-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz",
+    "sha": "4b368079466addd528d63e2e67c95e3ad35557c8",
+    "size": 61164,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4b368079466addd528d63e2e67c95e3ad35557c8",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/4b368079466addd528d63e2e67c95e3ad35557c8",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nload-0.7.4-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "nmap-7.92-x86_64-1.txz",
+    "path": "packages/pkgs/nmap-7.92-x86_64-1.txz",
+    "sha": "136d53d1af3278cbf5c8e7eb5121375d466307cd",
+    "size": 6263604,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nmap-7.92-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nmap-7.92-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/136d53d1af3278cbf5c8e7eb5121375d466307cd",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/nmap-7.92-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nmap-7.92-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/136d53d1af3278cbf5c8e7eb5121375d466307cd",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nmap-7.92-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "nodejs-20.11.0-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz",
+    "sha": "01f7a0187e49b8a29b0e9fa3cf3acbfb12b5cbde",
+    "size": 21676756,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/01f7a0187e49b8a29b0e9fa3cf3acbfb12b5cbde",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/01f7a0187e49b8a29b0e9fa3cf3acbfb12b5cbde",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/nodejs-20.11.0-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "npth-1.6-x86_64-3.txz",
+    "path": "packages/pkgs/npth-1.6-x86_64-3.txz",
+    "sha": "786c50fcdd216b5e353a4a131a549dfeeba20e3e",
+    "size": 35072,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/npth-1.6-x86_64-3.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/npth-1.6-x86_64-3.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/786c50fcdd216b5e353a4a131a549dfeeba20e3e",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/npth-1.6-x86_64-3.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/npth-1.6-x86_64-3.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/786c50fcdd216b5e353a4a131a549dfeeba20e3e",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/npth-1.6-x86_64-3.txz"
+    }
+  },
+  {
+    "name": "p7zip-17.04-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz",
+    "sha": "3c3eb126862b76f948cad9bf36df354ab7a32f0d",
+    "size": 2370696,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/3c3eb126862b76f948cad9bf36df354ab7a32f0d",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/3c3eb126862b76f948cad9bf36df354ab7a32f0d",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/p7zip-17.04-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "par2cmdline-0.8.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz",
+    "sha": "7061f4ed188c3fd6650c9fbd84f6bb22e7854696",
+    "size": 114508,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/7061f4ed188c3fd6650c9fbd84f6bb22e7854696",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/7061f4ed188c3fd6650c9fbd84f6bb22e7854696",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/par2cmdline-0.8.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "pigz-2.7-x86_64-1_SBo.txz",
+    "path": "packages/pkgs/pigz-2.7-x86_64-1_SBo.txz",
+    "sha": "e118d94967c80fce92b6990d585529b5700b713a",
+    "size": 70484,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/pigz-2.7-x86_64-1_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/pigz-2.7-x86_64-1_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e118d94967c80fce92b6990d585529b5700b713a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/pigz-2.7-x86_64-1_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/pigz-2.7-x86_64-1_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e118d94967c80fce92b6990d585529b5700b713a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/pigz-2.7-x86_64-1_SBo.txz"
+    }
+  },
+  {
+    "name": "plocate-1.1.19-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz",
+    "sha": "5468f8f3e661e3b892a36ca200d1bd2c0d824a0d",
+    "size": 124912,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/5468f8f3e661e3b892a36ca200d1bd2c0d824a0d",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/5468f8f3e661e3b892a36ca200d1bd2c0d824a0d",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/plocate-1.1.19-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "powershell-7.4.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz",
+    "sha": "056287a739f7793732513d1742569df3183e57aa",
+    "size": 50053460,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/056287a739f7793732513d1742569df3183e57aa",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/056287a739f7793732513d1742569df3183e57aa",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/powershell-7.4.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "powertop-2.15-x86_64-1.txz",
+    "path": "packages/pkgs/powertop-2.15-x86_64-1.txz",
+    "sha": "e9425ca18e224bad5f3b1806d4c9fb79249346c8",
+    "size": 200264,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/powertop-2.15-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/powertop-2.15-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e9425ca18e224bad5f3b1806d4c9fb79249346c8",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/powertop-2.15-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/powertop-2.15-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e9425ca18e224bad5f3b1806d4c9fb79249346c8",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/powertop-2.15-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "python-packaging-21.3-x86_64-1.txz",
+    "path": "packages/pkgs/python-packaging-21.3-x86_64-1.txz",
+    "sha": "170b97960f1fdf3de3018bb0d44901fe73ac905d",
+    "size": 54448,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-packaging-21.3-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-packaging-21.3-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/170b97960f1fdf3de3018bb0d44901fe73ac905d",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/python-packaging-21.3-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-packaging-21.3-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/170b97960f1fdf3de3018bb0d44901fe73ac905d",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-packaging-21.3-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "python-pip-21.3.1-x86_64-2.txz",
+    "path": "packages/pkgs/python-pip-21.3.1-x86_64-2.txz",
+    "sha": "81d362d40980146d544608a1d71bdad3efd94304",
+    "size": 1809344,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-pip-21.3.1-x86_64-2.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-pip-21.3.1-x86_64-2.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/81d362d40980146d544608a1d71bdad3efd94304",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/python-pip-21.3.1-x86_64-2.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-pip-21.3.1-x86_64-2.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/81d362d40980146d544608a1d71bdad3efd94304",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-pip-21.3.1-x86_64-2.txz"
+    }
+  },
+  {
+    "name": "python-setuptools-65.1.1-x86_64-1.txz",
+    "path": "packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz",
+    "sha": "f5a0ea2bb26b9920e003675df7de894745cbec6c",
+    "size": 914672,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f5a0ea2bb26b9920e003675df7de894745cbec6c",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f5a0ea2bb26b9920e003675df7de894745cbec6c",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python-setuptools-65.1.1-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "python2-2.7.18-x86_64-5.txz",
+    "path": "packages/pkgs/python2-2.7.18-x86_64-5.txz",
+    "sha": "5b9713a4330f38891ec50be589798241fe723f93",
+    "size": 13010920,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python2-2.7.18-x86_64-5.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python2-2.7.18-x86_64-5.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/5b9713a4330f38891ec50be589798241fe723f93",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/python2-2.7.18-x86_64-5.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python2-2.7.18-x86_64-5.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/5b9713a4330f38891ec50be589798241fe723f93",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python2-2.7.18-x86_64-5.txz"
+    }
+  },
+  {
+    "name": "python3-3.9.18-x86_64-1_slack15.0.txz",
+    "path": "packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz",
+    "sha": "6a155e47ccee6c5998169103e4540337af89d7ff",
+    "size": 19157424,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6a155e47ccee6c5998169103e4540337af89d7ff",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/6a155e47ccee6c5998169103e4540337af89d7ff",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/python3-3.9.18-x86_64-1_slack15.0.txz"
+    }
+  },
+  {
+    "name": "rar-6.24-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz",
+    "sha": "11d707c17d4113753f1fa207c850ea6140a1dd3f",
+    "size": 319824,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/11d707c17d4113753f1fa207c850ea6140a1dd3f",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/11d707c17d4113753f1fa207c850ea6140a1dd3f",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rar-6.24-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "rar2fs-1.29.6-x86_64-3_SBo_UES.txz",
+    "path": "packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz",
+    "sha": "1d25b488dcb7daf2238973f7756e630d52268044",
+    "size": 77296,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1d25b488dcb7daf2238973f7756e630d52268044",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1d25b488dcb7daf2238973f7756e630d52268044",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rar2fs-1.29.6-x86_64-3_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "rclone-1.65.1-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz",
+    "sha": "f4a32cb3ad5095a07933bbedc181a54a855ad2cd",
+    "size": 14400700,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f4a32cb3ad5095a07933bbedc181a54a855ad2cd",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/f4a32cb3ad5095a07933bbedc181a54a855ad2cd",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rclone-1.65.1-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "restic-0.16.3-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz",
+    "sha": "e8ffead28df3c1566656b230e2fdd253e924a802",
+    "size": 6727240,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e8ffead28df3c1566656b230e2fdd253e924a802",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/e8ffead28df3c1566656b230e2fdd253e924a802",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/restic-0.16.3-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "rsnapshot-1.4.4-x86_64-1_SBo.txz",
+    "path": "packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz",
+    "sha": "542f552b72b78448c29d0d2fa0427fc3186c53d0",
+    "size": 113464,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/542f552b72b78448c29d0d2fa0427fc3186c53d0",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/542f552b72b78448c29d0d2fa0427fc3186c53d0",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/rsnapshot-1.4.4-x86_64-1_SBo.txz"
+    }
+  },
+  {
+    "name": "ruby-3.3.0-x86_64-1.txz",
+    "path": "packages/pkgs/ruby-3.3.0-x86_64-1.txz",
+    "sha": "c894d941aa5fb952f40f188f86e3464a89c98676",
+    "size": 9544924,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ruby-3.3.0-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ruby-3.3.0-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c894d941aa5fb952f40f188f86e3464a89c98676",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/ruby-3.3.0-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/ruby-3.3.0-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c894d941aa5fb952f40f188f86e3464a89c98676",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/ruby-3.3.0-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "screen-4.9.1-x86_64-1.txz",
+    "path": "packages/pkgs/screen-4.9.1-x86_64-1.txz",
+    "sha": "c3426eda66ba278cf005e1cbb3d56bfc4f1c51df",
+    "size": 554680,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/screen-4.9.1-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/screen-4.9.1-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c3426eda66ba278cf005e1cbb3d56bfc4f1c51df",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/screen-4.9.1-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/screen-4.9.1-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/c3426eda66ba278cf005e1cbb3d56bfc4f1c51df",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/screen-4.9.1-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "socat-1.7.4.3-x86_64-1.txz",
+    "path": "packages/pkgs/socat-1.7.4.3-x86_64-1.txz",
+    "sha": "8e939faddce2bceaa3187c36e679a744823ad19e",
+    "size": 216164,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/socat-1.7.4.3-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/socat-1.7.4.3-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/8e939faddce2bceaa3187c36e679a744823ad19e",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/socat-1.7.4.3-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/socat-1.7.4.3-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/8e939faddce2bceaa3187c36e679a744823ad19e",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/socat-1.7.4.3-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "sshfs-3.7.3-x86_64-1.txz",
+    "path": "packages/pkgs/sshfs-3.7.3-x86_64-1.txz",
+    "sha": "46411365f26fe5829b15b956722530eefa9a54eb",
+    "size": 43944,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/sshfs-3.7.3-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/sshfs-3.7.3-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/46411365f26fe5829b15b956722530eefa9a54eb",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/sshfs-3.7.3-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/sshfs-3.7.3-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/46411365f26fe5829b15b956722530eefa9a54eb",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/sshfs-3.7.3-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "sshpass-1.06-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz",
+    "sha": "8ad607ace67181d3b86b9a66f613b81cefdefba4",
+    "size": 21832,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/8ad607ace67181d3b86b9a66f613b81cefdefba4",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/8ad607ace67181d3b86b9a66f613b81cefdefba4",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/sshpass-1.06-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "stress-1.0.4-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz",
+    "sha": "541489ab0b50194f04ab22547e10d9ea4f8624ff",
+    "size": 32080,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/541489ab0b50194f04ab22547e10d9ea4f8624ff",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/541489ab0b50194f04ab22547e10d9ea4f8624ff",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/stress-1.0.4-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "stunnel-5.62-x86_64-1.txz",
+    "path": "packages/pkgs/stunnel-5.62-x86_64-1.txz",
+    "sha": "fa626f1e269cd435831ce553941739cede4e7740",
+    "size": 195524,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/stunnel-5.62-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/stunnel-5.62-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fa626f1e269cd435831ce553941739cede4e7740",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/stunnel-5.62-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/stunnel-5.62-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/fa626f1e269cd435831ce553941739cede4e7740",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/stunnel-5.62-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "tcl-8.6.13-x86_64-1.txz",
+    "path": "packages/pkgs/tcl-8.6.13-x86_64-1.txz",
+    "sha": "baa73f816ed9c5179f8428da3bb35e449ba3af69",
+    "size": 3057248,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcl-8.6.13-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcl-8.6.13-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/baa73f816ed9c5179f8428da3bb35e449ba3af69",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/tcl-8.6.13-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcl-8.6.13-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/baa73f816ed9c5179f8428da3bb35e449ba3af69",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcl-8.6.13-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "tcllib-1.21-x86_64-1_SBo.txz",
+    "path": "packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz",
+    "sha": "57e533837a716d7e6cab716e02394e4c51d62772",
+    "size": 3865148,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/57e533837a716d7e6cab716e02394e4c51d62772",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/57e533837a716d7e6cab716e02394e4c51d62772",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcllib-1.21-x86_64-1_SBo.txz"
+    }
+  },
+  {
+    "name": "tcpdump-4.99.1-x86_64-1.txz",
+    "path": "packages/pkgs/tcpdump-4.99.1-x86_64-1.txz",
+    "sha": "a8ff41f767184fe88545e7cec47c2c78bccc60e3",
+    "size": 418672,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcpdump-4.99.1-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcpdump-4.99.1-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/a8ff41f767184fe88545e7cec47c2c78bccc60e3",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/tcpdump-4.99.1-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tcpdump-4.99.1-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/a8ff41f767184fe88545e7cec47c2c78bccc60e3",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tcpdump-4.99.1-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "tmux-3.3a-x86_64-1.txz",
+    "path": "packages/pkgs/tmux-3.3a-x86_64-1.txz",
+    "sha": "ec8c726daf1ae7e0c67429259ce39bd1cccc52cb",
+    "size": 388528,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tmux-3.3a-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tmux-3.3a-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ec8c726daf1ae7e0c67429259ce39bd1cccc52cb",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/tmux-3.3a-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/tmux-3.3a-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/ec8c726daf1ae7e0c67429259ce39bd1cccc52cb",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/tmux-3.3a-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "unrar-6.2.12-x86_64-1_SBo_UES.txz",
+    "path": "packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz",
+    "sha": "72020c4795812c1e5e148f85b9236541ce966fb9",
+    "size": 369068,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/72020c4795812c1e5e148f85b9236541ce966fb9",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/72020c4795812c1e5e148f85b9236541ce966fb9",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/unrar-6.2.12-x86_64-1_SBo_UES.txz"
+    }
+  },
+  {
+    "name": "utf8proc-2.7.0-x86_64-1.txz",
+    "path": "packages/pkgs/utf8proc-2.7.0-x86_64-1.txz",
+    "sha": "a4f8d1725afd0feb4ccf65c528eebbd040d0faeb",
+    "size": 63420,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/utf8proc-2.7.0-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/utf8proc-2.7.0-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/a4f8d1725afd0feb4ccf65c528eebbd040d0faeb",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/utf8proc-2.7.0-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/utf8proc-2.7.0-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/a4f8d1725afd0feb4ccf65c528eebbd040d0faeb",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/utf8proc-2.7.0-x86_64-1.txz"
+    }
+  },
+  {
+    "name": "vim-9.0.2127-x86_64-1_slack15.0.txz",
+    "path": "packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz",
+    "sha": "534ee30f5aab97a56e17bac792b3117a6cf14776",
+    "size": 8715316,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/534ee30f5aab97a56e17bac792b3117a6cf14776",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/534ee30f5aab97a56e17bac792b3117a6cf14776",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/vim-9.0.2127-x86_64-1_slack15.0.txz"
+    }
+  },
+  {
+    "name": "wget2-2.0.0-x86_64-2.txz",
+    "path": "packages/pkgs/wget2-2.0.0-x86_64-2.txz",
+    "sha": "1b33f47b5444ff51c4a452fd1005e53f9b36e47a",
+    "size": 715608,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/wget2-2.0.0-x86_64-2.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/wget2-2.0.0-x86_64-2.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1b33f47b5444ff51c4a452fd1005e53f9b36e47a",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/wget2-2.0.0-x86_64-2.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/wget2-2.0.0-x86_64-2.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/1b33f47b5444ff51c4a452fd1005e53f9b36e47a",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/wget2-2.0.0-x86_64-2.txz"
+    }
+  },
+  {
+    "name": "zsh-5.9-x86_64-1.txz",
+    "path": "packages/pkgs/zsh-5.9-x86_64-1.txz",
+    "sha": "b9df73fc417e0f964652c08e28840b5627fce883",
+    "size": 3156392,
+    "url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/zsh-5.9-x86_64-1.txz?ref=main",
+    "html_url": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/zsh-5.9-x86_64-1.txz",
+    "git_url": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/b9df73fc417e0f964652c08e28840b5627fce883",
+    "download_url": "https://raw.githubusercontent.com/UnRAIDES/unRAID-NerdTools/main/packages/pkgs/zsh-5.9-x86_64-1.txz",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/contents/packages/pkgs/zsh-5.9-x86_64-1.txz?ref=main",
+      "git": "https://api.github.com/repos/UnRAIDES/unRAID-NerdTools/git/blobs/b9df73fc417e0f964652c08e28840b5627fce883",
+      "html": "https://github.com/UnRAIDES/unRAID-NerdTools/blob/main/packages/pkgs/zsh-5.9-x86_64-1.txz"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+    "/boot/config/plugins/user.scripts/scripts/animal-spirits-processing/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/animal-spirits-processing/script",
+        "frequency": "hourly",
+        "id": "scheduleanimal-spirits-processing",
+        "custom": ""
+    },
+    "/boot/config/plugins/user.scripts/scripts/atp-no-ads-processing/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/atp-no-ads-processing/script",
+        "frequency": "hourly",
+        "id": "scheduleatp-no-ads-processing",
+        "custom": ""
+    },
+    "/boot/config/plugins/user.scripts/scripts/delete_dangling_images/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/delete_dangling_images/script",
+        "frequency": "monthly",
+        "id": "scheduledelete_dangling_images",
+        "custom": ""
+    },
+    "/boot/config/plugins/user.scripts/scripts/delete.ds_store/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/delete.ds_store/script",
+        "frequency": "monthly",
+        "id": "scheduledelete-ds_store",
+        "custom": ""
+    },
+    "/boot/config/plugins/user.scripts/scripts/spin_stats/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/spin_stats/script",
+        "frequency": "custom",
+        "id": "schedulespin_stats",
+        "custom": "*/5  * * * *"
+    },
+    "/boot/config/plugins/user.scripts/scripts/viewDockerLogSize/script": {
+        "script": "/boot/config/plugins/user.scripts/scripts/viewDockerLogSize/script",
+        "frequency": "disabled",
+        "id": "scheduleviewDockerLogSize",
+        "custom": ""
+    }
+}

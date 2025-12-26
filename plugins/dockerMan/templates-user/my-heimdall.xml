@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>heimdall</Name>
+  <Repository>lscr.io/linuxserver/heimdall</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/heimdall</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/linuxserver/docker-heimdall/issues/new/choose</Support>
+  <Project>https://heimdall.site</Project>
+  <Overview>Heimdall(https://heimdall.site) is a way to organise all those links to your most used web sites and web applications in a simple way.&#xD;
+&#xD;
+Simplicity is the key to Heimdall.&#xD;
+&#xD;
+Why not use it as your browser start page? It even has the ability to include a search bar using either Google, Bing or DuckDuckGo.</Overview>
+  <Category>Tools:Utilities Network:Web Network:Other spotlight:</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/heimdall.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/heimdall-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1692666091</DateInstalled>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="80" Default="80" Mode="tcp" Description="http gui" Type="Port" Display="always" Required="true" Mask="false">4555</Config>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/heimdall" Mode="rw" Description="Contains all relevant configuration files." Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/heimdall</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+</Container>

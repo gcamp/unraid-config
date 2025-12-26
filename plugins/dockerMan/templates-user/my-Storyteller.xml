@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Storyteller</Name>
+  <Repository>registry.gitlab.com/smoores/storyteller:latest</Repository>
+  <Registry>https://gitlab.com/smoores/storyteller/-/releases</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://smoores.gitlab.io/storyteller</Project>
+  <Overview>Storyteller is a self-hosted platform for creating and reading ebooks with guided narration. It's made up of two components: the alignment server, and the mobile apps. Together, these components allow you to take audiobooks and ebooks that you already own and automatically align them, as well as read or listen to (or both!) the resulting aligned books.&#xD;
+&#xD;
+Align your audiobooks and ebooks&#xD;
+---------------------------------------&#xD;
+Switch back and forth between listening and reading without losing your place, or have Storyteller read aloud to you while highlighting the text!&#xD;
+&#xD;
+Read or listen however you choose&#xD;
+--------------------------------------&#xD;
+Storyteller produces EPUB 3 compliant ebook files. You can read them with any ebook reader (software or hardware!) that supports EPUB Media Overlays, or you can use the dedicated Storyteller mobile apps.&#xD;
+&#xD;
+Own your books&#xD;
+------------------&#xD;
+Storyteller is completely self-hosted. All of your books stay on your hardware, and you're free to move, copy, and back them up as needed.&#xD;
+&#xD;
+### AMD HW ACCELERATED TRANSCRIPTION:&#xD;
+To enable support for HW Accelerated transcription, add the "--device='/dev/dri'" parameter added to "Extra Parameters:"&#xD;
+&#xD;
+### NVIDIA GPU:&#xD;
+To enable NVIDIA GPU support, ensure that you have installed the Nvidia-Driver plugin and add the "--runtime='nvidia'" parameter added to "Extra Parameters:"&#xD;
+&#xD;
+### AMD GPU:&#xD;
+To enable AMD GPU support, ensure that you have installed the Radeon-TOP plugin.</Overview>
+  <Category>Other: MediaApp:Books MediaServer:Books</Category>
+  <WebUI>http://[IP]:[PORT:8001]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/smoores-dev/storyteller-unraid/master/Storyteller.xml</TemplateURL>
+  <Icon>https://gitlab.com/smoores/storyteller/-/raw/main/docs/static/img/Storyteller_Logo.png?ref_type=heads&amp;amp;inline=false</Icon>
+  <ExtraParams>--memory=2g --cpus=1</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1737347398</DateInstalled>
+  <DonateText>You can support future Storyteller development by donating through Open Collective!</DonateText>
+  <DonateLink>https://opencollective.com/storyteller</DonateLink>
+  <Requires>&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;Nvidia-Driver plugin (nVidia Support)&#xD;
+br&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;&amp;amp;nbsp;Radeon-TOP plugin (AMD Support)</Requires>
+  <Config Name="App Data" Target="/data" Default="/mnt/user/appdata/storyteller" Mode="rw" Description="Where to store the Storyteller sqlite db file and media assets (the uploaded and aligned EPUB and audio files)" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/storyteller</Config>
+  <Config Name="Auth secret" Target="STORYTELLER_SECRET_KEY" Default="" Mode="" Description="A cryptographically random secret key, used to encrypt Storyteller's authentication tokens. See the docs here https://smoores.gitlab.io/storyteller/docs/getting-started#docker-compose for guidance." Type="Variable" Display="always" Required="true" Mask="true">wqb2eup@yzc_ufj0BXK</Config>
+  <Config Name="Web server port" Target="8001" Default="8001" Mode="tcp" Description="The port that the web server will listen on" Type="Port" Display="always" Required="true" Mask="false">8001</Config>
+  <Config Name="Data directory" Target="STORYTELLER_DATA_DIR" Default="/data" Mode="" Description="Where Storyteller should look for the data directory _within_ the container. This should match the Container path for the App Data path -- there's no need to change it." Type="Variable" Display="advanced" Required="true" Mask="false">/data</Config>
+  <Config Name="Radeon driver version override" Target="HSA_OVERRIDE_GFX_VERSION" Default="10.3.0" Mode="" Description="If you have an AMD GPU that has a driver version that is unsupported by your Unraid AMD driver, you may be able to work around it by setting this variable to a supported version number. E.g. for an AMD Radeon RX 6700 XT, this value must be set to 10.3.0" Type="Variable" Display="advanced" Required="false" Mask="false">10.3.0</Config>
+</Container>

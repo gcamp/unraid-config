@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mosquitto</Name>
+  <Repository>eclipse-mosquitto:2</Repository>
+  <Registry>https://hub.docker.com/_/eclipse-mosquitto</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/simonsickle/unraid-templates/discussions/categories/q-a-support</Support>
+  <Project>https://mosquitto.org</Project>
+  <Overview>MQTT Data Broker</Overview>
+  <Category>HomeAutomation:</Category>
+  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/simonsickle/unraid-templates/master/mosquitto/mosquitto.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/simonsickle/unraid-templates/main/mosquitto/logo.png</Icon>
+  <ExtraParams>--restart=unless-stopped</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1691980108</DateInstalled>
+  <DonateText>Buy me a beer / pizza</DonateText>
+  <DonateLink>https://cash.app/$ssickle</DonateLink>
+  <Requires/>
+  <Config Name="MQTT Port" Target="1883" Default="1883" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">1883</Config>
+  <Config Name="config" Target="/mosquitto/config" Default="/mnt/user/appdata/mosquitto/config/" Mode="rw" Description="Store mosquitto.conf and passwd files" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/mosquitto/config/</Config>
+  <Config Name="data" Target="/mosquitto/data" Default="/mnt/user/appdata/mosquitto/data" Mode="rw" Description=" Store persistent MQTT data. Note: Persistent data must be enabled in the mosquitto.conf config file. " Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/mosquitto/data</Config>
+  <Config Name="logs" Target="/mosquitto/log" Default="/mnt/user/appdata/mosquitto/log" Mode="rw" Description="Store mosquitto logs.  Note: Logs must be enabled in the mosquitto.conf config file" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/mosquitto/log</Config>
+</Container>

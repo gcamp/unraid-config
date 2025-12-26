@@ -1,0 +1,2 @@
+# Generated parity check schedule:
+0 0 * 1,5,9 1 [[ $(date +%e -d -7days) -le 7 ]] && /usr/local/sbin/mdcmd check NOCORRECT &> /dev/null || :

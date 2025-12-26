@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>beszel</Name>
+  <Repository>henrygd/beszel:latest</Repository>
+  <Registry>https://hub.docker.com/r/henrygd/beszel/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/henrygd/beszel/issues</Support>
+  <Project>https://github.com/henrygd/beszel</Project>
+  <Overview>A lightweight server monitoring hub with historical data, docker stats, and alerts.</Overview>
+  <Category>Tools:Utilities Network:Management</Category>
+  <WebUI>http://[IP]:[PORT:8090]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/JamsRepos/Unraid-Templates/master/templates/beszel.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/JamsRepos/Unraid-Templates/master/logos/beszel.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1737346392</DateInstalled>
+  <DonateText>Feeling generous?  Consider sponsoring me on GitHub!</DonateText>
+  <DonateLink>https://github.com/sponsors/JamsRepos</DonateLink>
+  <Requires>You will need to configure the beszel-agent along-side this container. This is a web application for reporting only.</Requires>
+  <Config Name="Port" Target="8090" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8090</Config>
+  <Config Name="Data Path" Target="/beszel_data" Default="" Mode="rw" Description="Where the container data will be stored" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/beszel/</Config>
+</Container>

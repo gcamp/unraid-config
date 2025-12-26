@@ -1,0 +1,3 @@
+# Generated cron schedule for user.scripts
+*/5  * * * * /usr/local/emhttp/plugins/user.scripts/startCustom.php /boot/config/plugins/user.scripts/scripts/spin_stats/script > /dev/null 2>&1
+

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Docker-Compose-Maker</Name>
+  <Repository>ghcr.io/ajnart/dcm:latest</Repository>
+  <Registry>https://registry.hub.docker.com/r/ghcr.io/ajnart/dcm</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/ajnart/docker-compose-maker/issues</Support>
+  <Project>https://compose.ajnart.dev/</Project>
+  <Overview>Docker Compose Maker (DCM) is a self-hostable website to help you pick and create a docker-compose.yml file for your home server. Discover new containers, discover and share a config in a couple of clicks!</Overview>
+  <Category>Productivity: Tools:Utilities Other:</Category>
+  <WebUI>http://[IP]:[PORT:7576]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/nwithan8/unraid_templates/main/templates/docker_compose_maker.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ajnart/docker-compose-maker/main/public/favicon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1756866380</DateInstalled>
+  <DonateText>If you like an app, please donate to the respective developers; I'm just writing XML files over here. But perhaps you have some change to spare afterwards, maybe chuck me a buck?</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/nwithan8</DonateLink>
+  <Requires/>
+  <Config Name="Web UI Port" Target="7576" Default="7576" Mode="tcp" Description="" Type="Port" Display="always-hide" Required="true" Mask="false">7576</Config>
+  <TailscaleStateDir/>
+</Container>

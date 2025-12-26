@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>audiobookshelf</Name>
+  <Repository>ghcr.io/advplyr/audiobookshelf</Repository>
+  <Registry>https://hub.docker.com/r/advplyr/audiobookshelf/</Registry>
+  <Network>container:GluetunVPN</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/112698-support-audiobookshelf/</Support>
+  <Project>https://github.com/advplyr/audiobookshelf</Project>
+  <Overview>Self-hosted audiobook and podcast server and web app. Supports multi-user w/ permissions and keeps progress in sync across devices. Free &amp;amp; open source mobile apps. Consider contributing by posting feedback, suggestions, feature requests on github or the forums.</Overview>
+  <Category>MediaApp:Books MediaServer:Books MediaApp:Other MediaServer:Other</Category>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/advplyr/docker-templates/master/audiobookshelf.xml</TemplateURL>
+  <Icon>https://github.com/advplyr/audiobookshelf/raw/master/client/static/Logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1743552934</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Audiobooks" Target="/audiobooks" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/data/media/podcast/</Config>
+  <Config Name="Config" Target="/config" Default="/mnt/user/appdata/audiobookshelf" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/audiobookshelf</Config>
+  <Config Name="Metadata" Target="/metadata" Default="/mnt/user/appdata/audiobookshelf/metadata/" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/audiobookshelf/metadata/</Config>
+  <Config Name="Web UI Port" Target="80" Default="13378" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">80</Config>
+  <TailscaleStateDir/>
+</Container>

@@ -1,0 +1,12 @@
+[admin]
+password=adminpass
+actions=set
+actions=fsd
+instcmds=all
+[gcamp]
+password=iW46JfH6HAhr28fBhe4GwWGj9W88FCVn
+upsmon master
+[slaveuser]
+password=c2xhdmVwYXNz
+upsmon slave
+# If not in manual mode, put any additional settings below this line

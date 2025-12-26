@@ -1,0 +1,31 @@
+{
+    "notify": "no",
+    "delay": "3",
+    "Global": "true",
+    "cron": {
+        "pluginCronFrequency": "Daily",
+        "pluginCronDay": "0",
+        "pluginCronDayOfMonth": "1",
+        "pluginCronHour": "5",
+        "pluginCronMinute": "30",
+        "pluginCronCustom": ""
+    },
+    "appdata.backup.plg": "true",
+    "ca.cleanup.appdata.plg": "true",
+    "ca.update.applications.plg": "true",
+    "community.applications.plg": "true",
+    "dynamix.active.streams.plg": "true",
+    "dynamix.system.temp.plg": "true",
+    "file.activity.plg": "true",
+    "gpustat.plg": "true",
+    "intel-gpu-top.plg": "true",
+    "NerdTools.plg": "true",
+    "nut-dw.plg": "true",
+    "open.files.plg": "true",
+    "prometheus_node_exporter.plg": "true",
+    "rclone.plg": "true",
+    "unassigned.devices.plg": "true",
+    "unassigned.devices-plus.plg": "true",
+    "unassigned.devices.preclear.plg": "true",
+    "user.scripts.plg": "true"
+}

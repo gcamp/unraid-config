@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>nut-server</Name>
+  <Repository>instantlinux/nut-upsd:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://www.openhab.org/logos/networkupstools.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1694918808</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Key 1" Target="API_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">gcamp</Config>
+  <Config Name="API password" Target="API_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">iW46JfH6HAhr28fBhe4GwWGj9W88FCVn</Config>
+  <Config Name="Host Port 1" Target="3493" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3493</Config>
+</Container>

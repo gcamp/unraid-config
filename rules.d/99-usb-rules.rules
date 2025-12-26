@@ -1,0 +1,5 @@
+# This file maps a Brother Printer (Vendor:Product / Serial) to /dev/brotherprinter
+
+# Brother Printer / 04f9:0045 Brother Industries, Ltd HL-2240 series / Serial D1J761505
+
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04f9", ATTRS{idProduct}=="0045", ATTRS{serial}=="D1J761505", SYMLINK+="brotherprinter"

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>changedetection.io</Name>
+  <Repository>lscr.io/linuxserver/changedetection.io</Repository>
+  <Registry>https://github.com/orgs/linuxserver/packages/container/package/changedetection.io</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/linuxserver/docker-changedetection.io/issues/new/choose</Support>
+  <Project>https://github.com/dgtlmoon/changedetection.io</Project>
+  <Overview>Changedetection.io(https://github.com/dgtlmoon/changedetection.io) provides free, open-source web page monitoring, notification and change detection.</Overview>
+  <Category>Other:</Category>
+  <WebUI>http://[IP]:[PORT:5000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/linuxserver/templates/master/unraid/changedetection.io.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver-ls-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747682142</DateInstalled>
+  <DonateText>Donations</DonateText>
+  <DonateLink>https://www.linuxserver.io/donate</DonateLink>
+  <Requires/>
+  <Config Name="WebUI" Target="5000" Default="5000" Mode="tcp" Description="WebUI" Type="Port" Display="always" Required="true" Mask="false">5100</Config>
+  <Config Name="BASE_URL" Target="BASE_URL" Default="" Mode="{3}" Description="Specify the full URL (including protocol) when running behind a reverse proxy" Type="Variable" Display="always" Required="false" Mask="false">https://changedetection.gcamp.me/</Config>
+  <Config Name="PLAYWRIGHT_DRIVER_URL" Target="PLAYWRIGHT_DRIVER_URL" Default="" Mode="{3}" Description="Specify the full URL to your chrome driver instance. See the wiki(https://github.com/dgtlmoon/changedetection.io/wiki/Playwright-content-fetcher) for details." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/changedetection.io" Mode="rw" Description="Persistent config files" Type="Path" Display="advanced" Required="true" Mask="false">/mnt/user/appdata/changedetection.io</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="{3}" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+  <TailscaleStateDir/>
+</Container>

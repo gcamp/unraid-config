@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ollama-ipex</Name>
+  <Repository>visitsb/ollama-ipex</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--memory=3G</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1734845115</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Ollama port" Target="11434" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">11434</Config>
+  <Config Name="Host Device 1" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/dri/card0</Config>
+  <Config Name="Host Device 2" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/dri/renderD128</Config>
+</Container>

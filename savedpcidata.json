@@ -1,0 +1,86 @@
+{
+    "0000:00:00.0": {
+        "class": "0600",
+        "vendor_id": "8086",
+        "device_id": "9b73",
+        "description": "Host bridge: Intel Corporation Device 9b73 (rev 03)\n"
+    },
+    "0000:00:02.0": {
+        "class": "0300",
+        "vendor_id": "8086",
+        "device_id": "9ba8",
+        "description": "VGA compatible controller: Intel Corporation CometLake-S GT1 [UHD Graphics 610] (rev 03)\n"
+    },
+    "0000:00:08.0": {
+        "class": "0880",
+        "vendor_id": "8086",
+        "device_id": "1911",
+        "description": "System peripheral: Intel Corporation Xeon E3-1200 v5\/v6 \/ E3-1500 v5 \/ 6th\/7th\/8th Gen Core Processor Gaussian Mixture Model\n"
+    },
+    "0000:00:12.0": {
+        "class": "1180",
+        "vendor_id": "8086",
+        "device_id": "06f9",
+        "description": "Signal processing controller: Intel Corporation Comet Lake PCH Thermal Controller\n"
+    },
+    "0000:00:14.0": {
+        "class": "0c03",
+        "vendor_id": "8086",
+        "device_id": "06ed",
+        "description": "USB controller: Intel Corporation Comet Lake USB 3.1 xHCI Host Controller\n"
+    },
+    "0000:00:14.2": {
+        "class": "0500",
+        "vendor_id": "8086",
+        "device_id": "06ef",
+        "description": "RAM memory: Intel Corporation Comet Lake PCH Shared SRAM\n"
+    },
+    "0000:00:16.0": {
+        "class": "0780",
+        "vendor_id": "8086",
+        "device_id": "06e0",
+        "description": "Communication controller: Intel Corporation Comet Lake HECI Controller\n"
+    },
+    "0000:00:17.0": {
+        "class": "0106",
+        "vendor_id": "8086",
+        "device_id": "06d2",
+        "description": "SATA controller: Intel Corporation Comet Lake SATA AHCI Controller\n"
+    },
+    "0000:00:1c.0": {
+        "class": "0604",
+        "vendor_id": "8086",
+        "device_id": "06b8",
+        "description": "PCI bridge: Intel Corporation Comet Lake PCIe Root Port #1 (rev f0)\n"
+    },
+    "0000:00:1c.4": {
+        "class": "0604",
+        "vendor_id": "8086",
+        "device_id": "06bc",
+        "description": "PCI bridge: Intel Corporation Device 06bc (rev f0)\n"
+    },
+    "0000:00:1f.0": {
+        "class": "0601",
+        "vendor_id": "8086",
+        "device_id": "0685",
+        "description": "ISA bridge: Intel Corporation Z490 Chipset LPC\/eSPI Controller\n"
+    },
+    "0000:00:1f.4": {
+        "class": "0c05",
+        "vendor_id": "8086",
+        "device_id": "06a3",
+        "description": "SMBus: Intel Corporation Comet Lake PCH SMBus Controller\n"
+    },
+    "0000:00:1f.5": {
+        "class": "0c80",
+        "vendor_id": "8086",
+        "device_id": "06a4",
+        "description": "Serial bus controller: Intel Corporation Comet Lake PCH SPI Controller\n"
+    },
+    "0000:02:00.0": {
+        "class": "0200",
+        "vendor_id": "10ec",
+        "device_id": "8125",
+        "description": "Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8125 2.5GbE Controller (rev 04)\n"
+    }
+}

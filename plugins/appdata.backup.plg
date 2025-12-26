@@ -1,0 +1,297 @@
+<?xml version='1.0' standalone='yes'?>
+<!DOCTYPE PLUGIN [
+        <!ENTITY name      "appdata.backup">
+        <!ENTITY author    "Robin Kluth">
+        <!ENTITY version   "2025.09.23">
+        <!ENTITY sha256    "194144fef0859b9c7410208b3850ca6192c57fa605119ddf1164e3b0dd8e8e1c">
+        <!ENTITY launch    "Settings/AB.Main">
+        <!ENTITY plugdir   "/usr/local/emhttp/plugins/&name;">
+        <!ENTITY github    "Commifreak/unraid-appdata.backup">
+        <!ENTITY pluginURL "https://raw.githubusercontent.com/&github;/master/&name;.plg">
+        ]>
+
+<PLUGIN name="&name;" author="&author;" version="&version;" launch="&launch;" pluginURL="&pluginURL;" icon="shield"
+        min="6.12" support="https://forums.unraid.net/topic/137710-plugin-appdatabackup/">
+
+    <CHANGES>
+        <![CDATA[
+        ➕New  🩹Fix 🔧Change
+
+###2025.09.23
+- 🩹 Fix errors when a group resolves to no group members
+
+###2025.09.17
+- 🩹 Fix buttons on Unraid 7.2+ (thanks to Squidly271)
+- 🩹 Re-read container state before executing the stop-command [Issue 56](https://github.com/Commifreak/unraid-appdata.backup/issues/56)
+- 🩹 Fix backup of containers which have [Tailscale enabled](https://github.com/Commifreak/unraid-appdata.backup/pull/50)
+- 🩹 Fix docker update-planning when container is set to `skip`
+- ➕ You can now switch between normal and debug log within logging page
+- ➕ The plugin now inserts a higher limit for PHP's `max_input_vars` to deal with the settings-form saving issue
+- ➕ The `pre-container` and `pre-backup` script can now return 2 to skip backup
+
+###2024.11.21
+- ➕ Added a settings form debug mode by adding `?debugForm` to the URL
+- 🩹 Fixed empty group handling (wasn't skipped properly)
+
+###2024.09.25
+- 🩹 Fixed, that PHP errors came up as critical errors inside log/email
+
+###2024.09.24
+- ➕ Support `--ignore-case` for exclusions.
+- ➕ Added pre- and post-container scripts. Thanks to [Blasman](https://github.com/Commifreak/unraid-appdata.backup/pull/36)
+- 🔧 More diagnostics if tar verification fails
+- 🩹 Fix `extra files backup` crashing the backup
+- 🩹 Some cosmetic changes
+
+###2024.03.17
+- 🩹 Run `post-run` after correcting destination permissions
+
+###2024.03.12
+- 🩹 Also use global exclusions for container exclusion check
+- 🩹 Fix for potential bug, not skipping a skipped-marked container when inside group
+- 🩹 Fix false duplication warning popups
+
+####2024.02.27
+- 🩹 Fix file permissions for created backup
+- 🔧 `preRun` script now runs before destination existence check
+
+###2024.02.26
+- 🩹 Grouping input is now visible to dark theme users 😅
+- 🔧 Container exclusion list is now being respected by the volume determination [Bug report](https://forums.unraid.net/topic/137710-plugin-appdatabackup/?do=findComment&comment=1376958)
+
+###2024.02.24
+- ➕ If the plugin detects same mapping within multiple containers, it shows a warning
+- ➕ If multicore compression is enabled, you can now fine tune the cpu cores to use
+- 🔧 Created backups are now owned by `nobody:users` with permissions `rwxrw-rw-`
+- 🔧 `Skip stopping container?` (formerly known as `Don't stop container?`) is now a global option which can be adjusted in every container
+- 🩹 Fix update detection for grouped containers
+- 🩹 Global exclusions are now also respected within extra files backup
+
+###2024.02.06b
+_That will be the last update for today! I promise! 🍻_
+
+- 🩹 Add a permanent hidden `CSRF` form field to fix any `missing csrf_token` message
+
+###2024.02.06a
+- 🩹 Fix grouped container order always being the reverse of what they should be
+- 🩹 Fixed logging appearance if grouped containers were involved
+
+###2024.02.06 - 🚀 Happy new year!
+- ➕ Container grouping
+- ➕ Global exclusion list
+- ➕ You can enable a notification for updated containers (disabled by default)
+- ➕ If a plex container is detected, the plugin now offers some exclusions to start with
+- ➕ New setting to skip container backup but include it into stop/start processes
+- ➕ Click a volume mapping to add it to the exclusion list
+- 🩹 `postBackup` script will now be executed after backup, before starting the container
+- 🔧 Raise a warning (instead of info) if container has NO volumes to back up
+- 🔧 Container updates are now handled directly after backing them up
+
+###2023.10.16
+- 🔧 The new success notification is now a setting and can be disabled (default).
+
+###2023.09.27
+- ➕ The plugin now creates a notice within Unraids notification system after a successful run.
+- ➕ Show every error during cron checking
+- 🔧 The plugin now calls every post/pre script with at least two arguments (type and current destination path) and a third one (backup result) for the postRun one.
+
+###2023.09.12
+- 🩹 The `Allowed sources` option was not filtered correctly, leading to an issue where all `External volumes` got backed up when they should not.
+- 🩹 If extra file backup contains a symlink, it gets now resolved to its realpath.
+
+###2023.08.28
+- 🩹 Fix docker auto update always showing `no update available`
+
+###2023.08.16
+- 🩹 Booting the system could result in `rm: missing operand`.
+- 🩹 `XML file for was not found` message - caused by deleted container - is fixed
+- 🩹 Docker update would only update one container, if multiple containers using the same image.
+
+###2023.08.15
+- 🩹 Instead of no notifications, a new bug sent too much. Fixed! 😅
+- 🔧 If a container stop-command fails, the plugin now tries again with `docker stop` variant.
+
+###2023.08.14
+- 🩹 Notifications were not sent, if notification level was set to `Errors only`
+- ➕ `Download (debug) log` were replaced with a `Share log` dialog, which uploads the log to the developer (me)
+
+###2023.06.23
+- 🩹 PostBackup script was not executed (only if method was `Stop/Backup/Start`)
+- 🩹 Restore non-compressed backups (containers as well as extra data) was not working
+
+###2023.05.31
+- 🩹 Settings: Not needed backup frequency fields are now disabled
+
+###2023.05.19
+- 🩹 Discard empty lines coming from the `allowed sources` option text-fields. Led to unexpected behavior
+
+###2023.05.09
+- ➕ A click on a container volume path, adds it to the container exclusion list
+
+###2023.04.27
+- 🔧 Skip non-existent host volume path mapping
+- 🩹 De-duplicate final volume mappings. [Bug report](https://forums.unraid.net/topic/137710-plugin-appdatabackup/?do=findComment&comment=1256267)
+
+###2023.04.26
+- 🩹 Another small fix for rare nested volume detection issue
+- 🩹 Fix cronjob again: Scheduling got lost after reboot - now using the right way for cron update
+- 🩹 Fix nested volume check
+- 🩹 Apply nested volume check only with paths within appdata (allowed sources)
+- 🩹 Fix applying default settings to per-container settings for new config options. [Bug report](https://forums.unraid.net/topic/137710-plugin-appdatabackup/?do=findComment&comment=1252597)
+- 🩹 Remove container volume mapping, if it is listed in allowed sources
+- 🩹 Scheduling no longer sends mails like "cron for user root ....."
+- 🔧 Ignore volumes which match against exact exclusion path within container settings
+- 🔧 Ignore nested volume (`/mnt/user/appdata/test`, `/mnt/user/appdata/text/config` => The latter would be ignored now)
+
+###2023.04.15a
+- 🩹 Fix CSS bottom border for dark themes
+- 🩹 Optimize volume detection for useless mappings (from our point of view)
+
+###2023.04.15
+- 🩹 Fix colors on dark themes inside per-container-settings section
+- 🔧 Add a warning to the log, if "external volume backup" is enabled for a container
+
+###2023.04.11
+- 🩹 Saving the settings with no docker containers yet, results in a blank page
+
+###2023.04.10
+- 🚀 First stable version!
+
+###2023.04.03b1
+- 🩹 Fixed file selector for dark themes _(Unraids global config variable handling needs a revamp...)_
+
+### 2023.03.31b2
+- 🩹 ca.backup2 migration: Migrate old source path as well
+
+### 2023.03.31b1
+- ➕ The restore default source path defaults now to the current set destination path
+- 🔧 You can choose a custom restore path now. This could be useful for advanced restoring. **This only applies to extracted archives, not for the config/xmls!**
+- 🔧 Changed the internal/external volume mapping detection again: You can choose ALL of your valid appdata sources now. **Open help for `Appdata source(s)` for further explanation**
+
+### 2023.03.30b1
+- ➕ If a `ca.backup2` config file is detected, the plugin now offers a config migration
+- 🔧 Changed the way "internal" volumes are detected: `/mnt/{user,cache}/appdata` and optionally the docker set folder are treated as such. Any other volume mapping (`/mnt/user/downloads/myDownloads` as example) is "external". You can optionally backup those too (disabled by default)
+
+### 2023.03.29b2
+- 🩹 "External" volumes (volumes not within your appdata) path are now being ignored. A future update will bring options to save them as well
+- 🩹 Container exclude list was not working as expected
+- 🩹 Fixed settings page issues for Safari users
+- 🩹 Fixed an issue during applying default settings to containers
+- 🔧 Faild backups are now kept (with -failed suffix)
+- 🔧 `Abort` now instantly stops any running command instead of waiting for its completion
+
+### 2023.03.28b3
+- 🩹 Some file selectors are opening some others - fixed
+- 🔧 Display container volumes one per line
+
+### 2023.03.28b2
+- 🩹 Fixed per container (only new ones) settings being hard-set to the global defaults instead of keeping 'Use default'
+- ➕ Added back update notice banner
+
+### 2023.03.28b1
+- ➕ Added back VM meta backup
+- ➕ Added back update notice banner
+
+### 2023.03.27b1
+- ➕ 1st beta
+]]>
+    </CHANGES>
+
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            OLDVERS=$(ls /boot/config/plugins/&name;/*.tgz 2>/dev/null | grep -v '&version;')
+            if [ ! -z "$OLDVERS" ]
+            then
+            echo "Cleaning old archives..."
+            rm $OLDVERS
+            else
+            echo "No cleanup of old plugin archive needed!"
+            fi
+
+            if [ -d "&plugdir;" ]
+            then
+            echo "Removing plugin files..."
+            rm -rf &plugdir;
+            else
+            echo "Plugin files were not present. Fresh install"
+            fi
+            echo "Creating plugin files directory..."
+            mkdir &plugdir;
+        </INLINE>
+    </FILE>
+
+    <FILE Name="/boot/config/plugins/&name;/&name;-&version;.tgz">
+        <URL>https://github.com/&github;/releases/download/&version;/&name;-&version;.tgz</URL>
+        <SHA256>&sha256;</SHA256>
+    </FILE>
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            echo "Extracting plugin files..."
+            tar -C &plugdir; -xzf /boot/config/plugins/&name;/&name;-&version;.tgz 2>&amp;1
+        </INLINE>
+    </FILE>
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            # Because we used the wrong way for reloading cron, we should remove the old remnants...
+            if [ -f "/etc/cron.d/appdata_backup" ]; then
+            rm /etc/cron.d/appdata_backup
+            echo "Found old cron file, refreshing it..."
+            fi
+            php &plugdir;/scripts/checkCron.php
+        </INLINE>
+    </FILE>
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            INIPATH="/etc/php.d/ab_max_input_vars.ini"
+
+            if [ ! -f "$INIPATH" ]; then
+              echo "Applying max_input_vars fix..."
+              echo "max_input_vars = 2000" > $INIPATH
+              CUR_FPM_STATUS=$(/etc/rc.d/rc.php-fpm status)
+              if [[ $CUR_FPM_STATUS =~ "not" ]]; then
+                echo "Skip FPM reload: not started!"
+              else
+                echo "Skip FPM reload: Reload..."
+                /etc/rc.d/rc.php-fpm reload
+              fi
+            fi
+        </INLINE>
+    </FILE>
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            echo -n "&version;" > &plugdir;/version
+        </INLINE>
+    </FILE>
+
+    <FILE Run="/bin/bash">
+        <INLINE>
+            echo ""
+            echo "----------------------------------------------------"
+            echo " &name; has been installed."
+            echo " (previously known as ca.backup2)"
+            echo ""
+            echo " 2022-2025, Robin Kluth"
+            echo " Version: &version;"
+            echo "----------------------------------------------------"
+            echo ""
+        </INLINE>
+    </FILE>
+
+    <!--
+    The 'remove' script.
+    -->
+    <FILE Run="/bin/bash" Method="remove">
+        <INLINE>
+            echo "Uninstalling... 😭 Maybe I see you again soon. Bye!"
+            rm -rf &plugdir; 2>/dev/null
+            rm -rf /boot/config/plugins/&name;
+            update_cron # Let cron know, we removed the target files :P
+            echo "Uninstall done."
+        </INLINE>
+    </FILE>
+</PLUGIN>

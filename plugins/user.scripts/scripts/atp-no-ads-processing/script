@@ -1,0 +1,87 @@
+#!/bin/bash
+
+INPUT_DIR="/mnt/user/data/media/podcast/Accidental Tech Podcast"
+OUTPUT_DIR="/mnt/user/data/media/podcast/ATP - No ads"
+DOCKER_IMAGE="ghcr.io/gcamp/mp3-chapter-filter:main"
+TIMESTAMP_FILE="/boot/config/plugins/user.scripts/scripts/atp-no-ads-processing/last_run_timestamp"
+DRY_RUN=false
+
+# Check for dry-run flag
+if [[ "$1" == "--dry-run" ]]; then
+    DRY_RUN=true
+    echo "--- Dry Run Mode Enabled ---"
+fi
+
+# Check if input directory exists
+if [ ! -d "$INPUT_DIR" ]; then
+    echo "Error: Input directory '$INPUT_DIR' does not exist"
+    exit 1
+fi
+
+# Create output directory if it doesn't exist
+    mkdir -p "$OUTPUT_DIR"
+
+# Read the last run timestamp
+if [ -f "$TIMESTAMP_FILE" ]; then
+    last_run_time=$(cat "$TIMESTAMP_FILE")
+    echo "Processing files modified after: $last_run_time"
+    find_opts="-newermt \"$last_run_time\""
+else
+    echo "Timestamp file not found. Processing all files."
+    last_run_time="" # Process all files if timestamp file doesn't exist
+    find_opts=""
+fi
+
+echo "Processing files from $INPUT_DIR to $OUTPUT_DIR using $DOCKER_IMAGE..."
+
+# Store the current time to update the timestamp file later
+current_run_time=$(date +"%Y-%m-%d %H:%M:%S")
+
+# Find files modified after the last run time
+# Note: Using eval here to correctly handle the find_opts variable which might be empty or contain quoted date
+eval find \"\$INPUT_DIR\" -type f $find_opts | while read -r file; do
+    filename=$(basename "$file")
+    output_file="$OUTPUT_DIR/$filename"
+
+    # Skip if the output file already exists and is newer than the input file
+    if [ -f "$output_file" ] && [ "$output_file" -nt "$file" ]; then
+        echo "Skipping: $filename (already processed and output is newer)"
+        continue
+    fi
+
+    echo "Processing: $filename"
+
+    if [ "$DRY_RUN" = true ]; then
+        echo "[Dry Run] Would process $filename"
+        echo "[Dry Run] Docker command:"
+        echo "[Dry Run] docker run --rm --cpus='1.5' --memory='8G' --mount type=bind,source=\"$file\",target=\"/input/$filename\" -v \"$OUTPUT_DIR:/output\" \"$DOCKER_IMAGE\" --input_file \"/input/$filename\" --output_file \"/output/$filename\" --filter_string \"Sponsor\""
+    else
+        # Run the Docker container with the file mounted
+        docker run --rm \
+            --cpus="1.5" \
+            --memory="8G" \
+            --mount type=bind,source="$file",target="/input/$filename" \
+            -v "$OUTPUT_DIR:/output" \
+            "$DOCKER_IMAGE" \
+            --input_file "/input/$filename" \
+            --output_file "/output/$filename" \
+            --filter_string "Sponsor"
+
+        # Check if the processing was successful
+        if [ $? -eq 0 ]; then
+            echo "✓ Successfully processed: $filename"
+        else
+            echo "✗ Error processing: $filename (Error code: $?)"
+        fi
+    fi
+done
+
+# Update the timestamp file with the current run time only if not a dry run
+if [ "$DRY_RUN" = false ]; then
+    echo "$current_run_time" > "$TIMESTAMP_FILE"
+    echo "Timestamp file updated to: $current_run_time"
+else
+    echo "[Dry Run] Would update timestamp file to: $current_run_time"
+fi
+
+echo "All new files processed."

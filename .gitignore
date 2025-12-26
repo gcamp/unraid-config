@@ -1,0 +1,38 @@
+# Sensitive credentials
+**/secrets.yaml
+**/passwords.txt
+**/*password*
+**/*secret*
+**/*credential*
+**/*token*
+**/id_rsa
+**/id_ed25519
+**/id_ecdsa
+**/.rclone.conf*
+
+# SSH keys
+ssh/root/id_*
+ssh/*/id_*
+
+# Slack webhooks
+plugins/dynamix/notifications/agents/Slack.sh
+
+# Docker and plugin tokens
+docker.versions/github_token.txt
+
+# System and cache files
+.DS_Store
+*.log
+*.db
+*.sqlite
+cache/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*.backup_*
+
+# Unraid specific
+super.dat
+*.key

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>scrypted</Name>
+  <Repository>ghcr.io/koush/scrypted</Repository>
+  <Registry>https://hub.docker.com/r/koush/scrypted/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/koush/scrypted/issues/</Support>
+  <Project>https://github.com/koush/scrypted</Project>
+  <Overview>Scrypted Home Automation</Overview>
+  <Category>HomeAutomation:</Category>
+  <WebUI>https://[IP]:[PORT:10443]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/PTRFRLL/unraid-templates/master/scrypted/scrypted.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/PTRFRLL/unraid-templates/master/scrypted/icon.png</Icon>
+  <ExtraParams>--restart unless-stopped --memory=1.5G</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1738036889</DateInstalled>
+  <DonateText>Buy me a coffee/beer</DonateText>
+  <DonateLink>https://www.paypal.me/ptrfrll</DonateLink>
+  <Requires/>
+  <Config Name="Appdata" Target="/server/volume" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/scrypted</Config>
+  <Config Name="iGPU" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/dri/</Config>
+  <Config Name="Media path" Target="/NVR" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disks/NVR</Config>
+  <Config Name="Doorbell port" Target="46336" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">46336</Config>
+  <Config Name="Scrypted port" Target="10443" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">10443</Config>
+  <Config Name="Kids room port" Target="33552" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">33552</Config>
+</Container>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>cloudflare</Name>
+  <Repository>cloudflare/cloudflared:latest</Repository>
+  <Registry/>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>https://dash.teams.cloudflare.com/</WebUI>
+  <TemplateURL/>
+  <Icon>https://upload.wikimedia.org/wikipedia/commons/9/94/Cloudflare_Logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs>tunnel --no-autoupdate run --token eyJhIjoiYzcyMTI2MWQzYWRiN2E0OGUyYzhmYzc1MmU0Y2JkMGIiLCJ0IjoiYmZjMjJlZWQtZDM0YS00NTRiLTliZjYtMDViNDA3MzQ4YjVkIiwicyI6IllqQTRNak15TkRZdE56Y3hZeTAwT1dabUxUaGlNbVF0WW1NMU1XRmlPVFEyTURObCJ9</PostArgs>
+  <CPUset/>
+  <DateInstalled>1694887999</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+</Container>
