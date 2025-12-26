@@ -1,1 +1,31 @@
 services:
+  shadowsocks:
+    image: mritd/shadowsocks:latest
+    container_name: shadowsocks
+    restart: unless-stopped
+    environment:
+      - SS_MODULE=ss-local
+      - SS_CONFIG=-s 185.39.204.27 -p 1080 -b 0.0.0.0 -l 1080 -k 6xN48auNyBbpLDzpmNtUqr4zhVFJuWYF -m chacha20-ietf-poly1305 -u
+    ports:
+      - "13378:80"                     # Audiobookshelf Web UI
+
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    container_name: audiobookshelf
+    restart: unless-stopped
+    network_mode: "service:shadowsocks"
+    environment:
+      - PUID=99
+      - PGID=100
+      - TZ=America/Toronto
+      # Proxy configuration for podcast downloads
+      - HTTP_PROXY=http://localhost:1080
+      - HTTPS_PROXY=http://localhost:1080
+      - no_proxy=localhost,127.0.0.1
+      - EXP_PROXY_SUPPORT=1           # Enable experimental proxy support
+    volumes:
+      - /mnt/user/appdata/audiobookshelf/config:/config
+      - /mnt/user/appdata/audiobookshelf/metadata:/metadata
+      - /mnt/user/data/media/podcast:/audiobooks
+    depends_on:
+      - shadowsocks
